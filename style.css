@@ -31,8 +31,7 @@ select {
 
 html {
     overflow-x: hidden;
-    overflow-y: scroll;
-    height: 100%;
+    overflow-y: auto;
     scroll-behavior: smooth;
 }
 
@@ -42,16 +41,16 @@ body {
     color: #ffffff;
     line-height: 1.6;
     overflow-x: hidden;
-    overflow-y: visible;
-    height: auto;
-    min-height: 100%;
+    overflow-y: auto;
     position: relative;
+    width: 100%;
 }
 
 .site-main {
     overflow-x: hidden;
     overflow-y: visible;
     position: relative;
+    width: 100%;
 }
 
 /* Header */
@@ -106,7 +105,6 @@ body {
 /* Hero Section */
 .hero-section {
     min-height: 100vh;
-    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -114,6 +112,7 @@ body {
     padding: 120px 40px 80px;
     position: relative;
     overflow-x: hidden;
+    width: 100%;
 }
 
 /* Background with grid and particles */
@@ -330,11 +329,12 @@ body {
 /* Check Yourself Section */
 .check-section {
     min-height: 100vh;
-    height: auto;
     padding: 120px 40px 80px;
     background: #0a0a0a;
     position: relative;
     overflow-x: hidden;
+    width: 100%;
+    display: block;
 }
 
 .check-section::before {
@@ -646,11 +646,12 @@ body {
 /* Choose Section */
 .choose-section {
     min-height: 100vh;
-    height: auto;
     padding: 120px 40px 80px;
     background: #0a0a0a;
     position: relative;
     overflow-x: hidden;
+    width: 100%;
+    display: block;
 }
 
 .choose-container {
@@ -891,11 +892,12 @@ body {
 /* Content Section */
 .content-section {
     min-height: 100vh;
-    height: auto;
     padding: 120px 40px 80px;
     background: #0a0a0a;
     position: relative;
     overflow-x: hidden;
+    width: 100%;
+    display: block;
 }
 
 .content-container {
