@@ -33,6 +33,7 @@ html {
     overflow-x: hidden;
     overflow-y: auto;
     scroll-behavior: smooth;
+    height: auto;
 }
 
 body {
@@ -58,10 +59,12 @@ body {
 }
 
 section {
-    display: block;
-    position: relative;
-    width: 100%;
+    display: block !important;
+    position: relative !important;
+    width: 100% !important;
     box-sizing: border-box;
+    float: none;
+    clear: both;
 }
 
 /* Header */
