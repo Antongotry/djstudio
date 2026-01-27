@@ -44,6 +44,8 @@ body {
     overflow-y: auto;
     position: relative;
     width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 .site-main {
@@ -51,6 +53,15 @@ body {
     overflow-y: visible;
     position: relative;
     width: 100%;
+    display: block;
+    min-height: 100vh;
+}
+
+section {
+    display: block;
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 /* Header */
@@ -113,6 +124,8 @@ body {
     position: relative;
     overflow-x: hidden;
     width: 100%;
+    margin: 0;
+    clear: both;
 }
 
 /* Background with grid and particles */
@@ -335,6 +348,8 @@ body {
     overflow-x: hidden;
     width: 100%;
     display: block;
+    margin: 0;
+    clear: both;
 }
 
 .check-section::before {
@@ -652,6 +667,8 @@ body {
     overflow-x: hidden;
     width: 100%;
     display: block;
+    margin: 0;
+    clear: both;
 }
 
 .choose-container {
@@ -898,6 +915,8 @@ body {
     overflow-x: hidden;
     width: 100%;
     display: block;
+    margin: 0;
+    clear: both;
 }
 
 .content-container {
