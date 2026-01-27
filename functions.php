@@ -25,8 +25,11 @@ add_action('after_setup_theme', 'djstudio_setup');
 
 // Enqueue scripts and styles
 function djstudio_scripts() {
+    // Enqueue Google Fonts (Raleway)
+    wp_enqueue_style('djstudio-raleway', 'https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap', array(), null);
+    
     // Enqueue styles
-    wp_enqueue_style('djstudio-style', get_stylesheet_uri(), array(), '1.0.0');
+    wp_enqueue_style('djstudio-style', get_stylesheet_uri(), array('djstudio-raleway'), '1.0.0');
     
     // Enqueue scripts
     wp_enqueue_script('djstudio-main', get_template_directory_uri() . '/js/main.js', array(), '1.0.0', true);

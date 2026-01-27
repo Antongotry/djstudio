@@ -93,4 +93,89 @@
         }
     });
 
+    // Check section functionality
+    function initCheckSection() {
+        const checkGrid = document.getElementById('checkGrid');
+        if (!checkGrid) return;
+
+        const checkboxes = checkGrid.querySelectorAll('.check-input');
+        const checkCount = document.getElementById('checkCount');
+        const totalChecks = checkboxes.length;
+
+        // Update count function
+        function updateCount() {
+            const checked = Array.from(checkboxes).filter(cb => cb.checked).length;
+            if (checkCount) {
+                checkCount.textContent = `${checked}/${totalChecks}`;
+            }
+            
+            // Update card classes
+            checkboxes.forEach((checkbox, index) => {
+                const card = checkbox.closest('.check-card');
+                if (card) {
+                    if (checkbox.checked) {
+                        card.classList.add('checked');
+                    } else {
+                        card.classList.remove('checked');
+                    }
+                }
+            });
+        }
+
+        // Add event listeners to checkboxes
+        checkboxes.forEach(checkbox => {
+            checkbox.addEventListener('change', updateCount);
+            
+            // Also allow clicking on card to toggle
+            const card = checkbox.closest('.check-card');
+            if (card) {
+                card.addEventListener('click', function(e) {
+                    // Don't trigger if clicking directly on checkbox
+                    if (e.target !== checkbox && e.target !== checkbox.nextElementSibling) {
+                        checkbox.checked = !checkbox.checked;
+                        updateCount();
+                    }
+                });
+            }
+        });
+
+        // Initial count update
+        updateCount();
+    }
+
+    // Initialize check section when DOM is ready
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', function() {
+            initCheckSection();
+            initChooseSection();
+        });
+    } else {
+        initCheckSection();
+        initChooseSection();
+    }
+
+    // Choose section functionality
+    function initChooseSection() {
+        const chooseButtons = document.querySelectorAll('.choose-button');
+        if (!chooseButtons.length) return;
+
+        chooseButtons.forEach(button => {
+            button.addEventListener('click', function() {
+                // Remove active class from all buttons
+                chooseButtons.forEach(btn => {
+                    btn.classList.remove('choose-button-active');
+                });
+                
+                // Add active class to clicked button
+                this.classList.add('choose-button-active');
+                
+                // Get the tab data attribute
+                const tab = this.getAttribute('data-tab');
+                
+                // Here you can add functionality to show different content based on the tab
+                // For example: showContentForTab(tab);
+            });
+        });
+    }
+
 })();
