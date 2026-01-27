@@ -226,6 +226,102 @@ get_header();
             </div>
         </div>
     </section>
+
+    <!-- Content Section (Dynamic based on selection) -->
+    <section class="content-section" id="content-section">
+        <div class="content-container">
+            <div class="content-header">
+                <div class="content-header-left">
+                    <span class="content-number">003</span>
+                    <div class="content-brand-wrapper">
+                        <span class="content-brand-line"></span>
+                        <span class="content-brand">Upgrade <span class="content-brand-light">lab</span></span>
+                        <span class="content-divider">|</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-tabs" id="contentTabs">
+                <!-- Automation Content -->
+                <div class="content-tab active" data-tab="automation">
+                    <h2 class="content-title">Автоматизация бизнес-процессов</h2>
+                    <p class="content-description">
+                        Мы создаем системы, которые работают без вашего участия. Автоматизируем рутинные задачи, 
+                        настраиваем интеграции между системами и освобождаем ваше время для стратегических решений.
+                    </p>
+                    <div class="content-features">
+                        <div class="content-feature">
+                            <div class="content-feature-icon">⚙️</div>
+                            <h3>Автоматизация процессов</h3>
+                            <p>Настраиваем автоматические workflows для ваших бизнес-процессов</p>
+                        </div>
+                        <div class="content-feature">
+                            <div class="content-feature-icon">🔗</div>
+                            <h3>Интеграции систем</h3>
+                            <p>Подключаем все ваши инструменты в единую экосистему</p>
+                        </div>
+                        <div class="content-feature">
+                            <div class="content-feature-icon">🤖</div>
+                            <h3>AI и машинное обучение</h3>
+                            <p>Внедряем умные решения для оптимизации работы</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Digitization Content -->
+                <div class="content-tab" data-tab="digitization">
+                    <h2 class="content-title">Оцифровка процессов</h2>
+                    <p class="content-description">
+                        Переводим ваши бизнес-процессы в цифровой формат. Создаем единую систему управления данными, 
+                        настраиваем аналитику и даем вам полный контроль над бизнесом.
+                    </p>
+                    <div class="content-features">
+                        <div class="content-feature">
+                            <div class="content-feature-icon">📊</div>
+                            <h3>Централизация данных</h3>
+                            <p>Объединяем все данные в единую систему управления</p>
+                        </div>
+                        <div class="content-feature">
+                            <div class="content-feature-icon">📈</div>
+                            <h3>Аналитика и отчетность</h3>
+                            <p>Создаем дашборды и отчеты для принятия решений</p>
+                        </div>
+                        <div class="content-feature">
+                            <div class="content-feature-icon">💾</div>
+                            <h3>Миграция данных</h3>
+                            <p>Безопасно переносим данные из старых систем</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Scale Content -->
+                <div class="content-tab" data-tab="scale">
+                    <h2 class="content-title">Масштабирование бизнеса</h2>
+                    <p class="content-description">
+                        Строим инфраструктуру, которая растет вместе с вашим бизнесом. Создаем масштабируемые решения, 
+                        которые выдерживают любые нагрузки и позволяют быстро расширяться.
+                    </p>
+                    <div class="content-features">
+                        <div class="content-feature">
+                            <div class="content-feature-icon">🚀</div>
+                            <h3>Масштабируемая архитектура</h3>
+                            <p>Проектируем системы, готовые к росту</p>
+                        </div>
+                        <div class="content-feature">
+                            <div class="content-feature-icon">⚡</div>
+                            <h3>Производительность</h3>
+                            <p>Оптимизируем системы для максимальной скорости</p>
+                        </div>
+                        <div class="content-feature">
+                            <div class="content-feature-icon">🌐</div>
+                            <h3>Глобальное расширение</h3>
+                            <p>Подготавливаем инфраструктуру для международного роста</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </main>
 
 <?php

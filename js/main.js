@@ -148,10 +148,14 @@
         document.addEventListener('DOMContentLoaded', function() {
             initCheckSection();
             initChooseSection();
+            // Show default content (digitization is active by default)
+            showContentTab('digitization');
         });
     } else {
         initCheckSection();
         initChooseSection();
+        // Show default content (digitization is active by default)
+        showContentTab('digitization');
     }
 
     // Choose section functionality
@@ -172,9 +176,33 @@
                 // Get the tab data attribute
                 const tab = this.getAttribute('data-tab');
                 
-                // Here you can add functionality to show different content based on the tab
-                // For example: showContentForTab(tab);
+                // Show corresponding content tab
+                showContentTab(tab);
             });
+        });
+    }
+
+    // Show content tab based on selection
+    function showContentTab(tabName) {
+        const contentTabs = document.querySelectorAll('.content-tab');
+        if (!contentTabs.length) return;
+
+        contentTabs.forEach(tab => {
+            tab.classList.remove('active');
+            if (tab.getAttribute('data-tab') === tabName) {
+                tab.classList.add('active');
+                
+                // Smooth scroll to content section
+                const contentSection = document.getElementById('content-section');
+                if (contentSection) {
+                    setTimeout(() => {
+                        contentSection.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                    }, 100);
+                }
+            }
         });
     }
 

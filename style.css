@@ -31,9 +31,10 @@ select {
 
 html {
     overflow-x: hidden;
-    overflow-y: auto;
+    overflow-y: auto !important;
     scroll-behavior: smooth;
     height: auto;
+    min-height: 100%;
 }
 
 body {
@@ -42,9 +43,10 @@ body {
     color: #ffffff;
     line-height: 1.6;
     overflow-x: hidden;
-    overflow-y: auto;
+    overflow-y: auto !important;
     position: relative;
     width: 100%;
+    min-height: 100%;
     margin: 0;
     padding: 0;
 }
