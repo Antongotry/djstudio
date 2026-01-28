@@ -343,45 +343,86 @@ section {
     height: 100%;
 }
 
+/* Hero stats — как на скрине: число слева, две строки справа, вертикальные пунктиры */
 .hero-stats {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: clamp(1rem, 3vw, 2.5rem);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
     width: 100%;
-    max-width: 56rem;
+    max-width: 1000px;
     margin-top: auto;
     padding-top: clamp(0.75rem, 2vh, 1.5rem);
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
-    text-align: center;
+    border-top: 1px solid rgba(112, 112, 112, 0.4);
     flex-shrink: 0;
 }
 
 .hero-stat {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    gap: 0.25rem;
+    gap: 1rem;
+    padding: 0 1.5rem;
+}
+
+.hero-stat:first-child {
+    padding-left: 0;
 }
 
 .hero-stat-value {
     font-family: Raleway, sans-serif;
-    font-weight: 500;
-    font-size: 1.75rem;
+    font-weight: 600;
+    font-size: 2rem;
     line-height: 1.2;
     letter-spacing: -0.02em;
-    color: #9E9772;
+    color: #BFA169;
     font-variant-numeric: lining-nums proportional-nums;
+    flex-shrink: 0;
 }
 
-.hero-stat-label {
+.hero-stat-value sup {
+    font-size: 0.55em;
+    vertical-align: super;
+    line-height: 0;
+    font-weight: 600;
+}
+
+.hero-stat-text {
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+}
+
+.hero-stat-line1 {
+    font-family: Raleway, sans-serif;
+    font-weight: 500;
+    font-size: 0.9375rem;
+    line-height: 1.3;
+    color: #E0E0E0;
+}
+
+.hero-stat-line2 {
+    font-family: Raleway, sans-serif;
+    font-weight: 400;
     font-size: 0.8125rem;
-    color: #888891;
-    line-height: 1.35;
+    line-height: 1.3;
+    color: #E0E0E0;
+    opacity: 0.95;
+}
+
+.hero-stats-sep {
+    width: 1px;
+    height: 2.5rem;
+    background: transparent;
+    border-left: 1px dashed rgba(112, 112, 112, 0.5);
+    flex-shrink: 0;
 }
 
 /* Responsive hero */
 @media (max-width: 1024px) {
-    .hero-stats { gap: 1.25rem; }
+    .hero-stat { padding: 0 1rem; gap: 0.75rem; }
+    .hero-stat-value { font-size: 1.75rem; }
 }
 
 @media (max-width: 768px) {
@@ -399,15 +440,34 @@ section {
     }
     
     .hero-stats {
-        grid-template-columns: repeat(3, 1fr);
-        gap: 1rem;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem 0;
+    }
+    
+    .hero-stats-sep {
+        display: none;
+    }
+    
+    .hero-stat {
+        padding: 0 0.75rem;
+    }
+    
+    .hero-stat:first-child {
+        padding-left: 0.75rem;
     }
 }
 
 @media (max-width: 480px) {
     .hero-stats {
-        grid-template-columns: 1fr;
-        gap: 1.25rem;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+    
+    .hero-stat {
+        border-left: none;
+        padding-left: 0;
     }
 }
 

@@ -40,16 +40,27 @@ get_header();
             </div>
             <div class="hero-stats">
                 <div class="hero-stat">
-                    <span class="hero-stat-value">$1M</span>
-                    <span class="hero-stat-label">Клиенты с годовым оборотом</span>
+                    <span class="hero-stat-value">$1M<sup>+</sup></span>
+                    <div class="hero-stat-text">
+                        <span class="hero-stat-line1">Клиенты</span>
+                        <span class="hero-stat-line2">с годовым оборотом</span>
+                    </div>
                 </div>
+                <span class="hero-stats-sep" aria-hidden="true"></span>
                 <div class="hero-stat">
                     <span class="hero-stat-value">70%</span>
-                    <span class="hero-stat-label">Остаются на сопровождении</span>
+                    <div class="hero-stat-text">
+                        <span class="hero-stat-line1">Остаются</span>
+                        <span class="hero-stat-line2">на сопровождении</span>
+                    </div>
                 </div>
+                <span class="hero-stats-sep" aria-hidden="true"></span>
                 <div class="hero-stat">
-                    <span class="hero-stat-value">10x</span>
-                    <span class="hero-stat-label">Масштабируемость бизнеса</span>
+                    <span class="hero-stat-value">10<sup>×</sup></span>
+                    <div class="hero-stat-text">
+                        <span class="hero-stat-line1">Масштабируемость</span>
+                        <span class="hero-stat-line2">бизнеса</span>
+                    </div>
                 </div>
             </div>
         </div>
