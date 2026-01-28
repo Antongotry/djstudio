@@ -204,6 +204,48 @@ get_header();
             </div>
         </div>
     </section>
+
+    <section class="result-section" id="typical-result" aria-label="Типичный результат">
+        <div class="result-bg" aria-hidden="true"></div>
+        <div class="result-inner">
+            <div class="result-header">
+                <span class="result-vline" aria-hidden="true"></span>
+                <h2 class="result-title">Типичный результат:</h2>
+            </div>
+            <div class="result-cards">
+                <div class="result-card">
+                    <span class="result-value">-40%</span>
+                    <span class="result-label">Времени на<br>отчетность</span>
+                </div>
+                <div class="result-card">
+                    <span class="result-value">×3</span>
+                    <span class="result-label">Скорость<br>решений</span>
+                </div>
+                <div class="result-card">
+                    <span class="result-value">100%</span>
+                    <span class="result-label">Прозрачность<br>процессов</span>
+                </div>
+            </div>
+            <div class="result-footer">
+                <div class="result-nav" aria-hidden="true">
+                    <span class="result-dot result-dot--active"></span>
+                    <span class="result-dot"></span>
+                    <span class="result-dot"></span>
+                    <span class="result-dot"></span>
+                    <span class="result-dot"></span>
+                    <span class="result-dot"></span>
+                    <span class="result-dot"></span>
+                    <span class="result-dot"></span>
+                </div>
+                <a href="#contact" class="result-cta">
+                    ОБСУДИТЬ СИТУАЦИЮ
+                    <span class="result-cta-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M7 7h10v10"/></svg>
+                    </span>
+                </a>
+            </div>
+        </div>
+    </section>
 </main>
 
 <?php
