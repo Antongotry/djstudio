@@ -241,7 +241,7 @@ section {
     }
 }
 
-/* Hero Content — помещается в 100vh без скролла */
+/* Hero Content — строго влезает в экран, без скролла и без внешних transform/opacity */
 .hero-content {
     max-width: 1200px;
     width: 100%;
@@ -255,13 +255,19 @@ section {
     padding: 0 20px;
     flex-shrink: 1;
     min-height: 0;
-    max-height: 100%;
+    /* Жёсткий лимит высоты: 100vh минус отступы секции (≈150px), чтобы не было переполнения */
+    max-height: calc(100vh - 150px);
+    overflow: hidden;
+    /* Сбрасываем любые transform/opacity от скриптов или расширений */
+    transform: none !important;
+    opacity: 1 !important;
 }
 
 @media (min-width: 1024px) {
     .hero-content {
         max-width: 1400px;
         padding: 0 40px;
+        max-height: calc(100vh - 150px);
     }
 }
 
