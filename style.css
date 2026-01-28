@@ -197,7 +197,7 @@ section {
     50% { transform: translate(50px, -100px); opacity: 0.2; }
 }
 
-/* Контейнер контента — растягивается на ячейку, hero-stats всегда виден */
+/* Контейнер контента первого блока */
 .hero-inner {
     position: relative;
     z-index: 1;
@@ -207,34 +207,34 @@ section {
     height: 100%;
     max-height: 100%;
     margin: 0 auto;
-    padding: clamp(1.25rem, 3vh, 2.5rem) 1.25rem;
+    padding: clamp(1.5rem, 4vh, 3rem) 1.5rem;
     box-sizing: border-box;
     overflow: hidden;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    gap: clamp(0.5rem, 1.5vh, 1rem);
+    justify-content: center;
+    gap: clamp(1rem, 3vh, 2rem);
     transform: none !important;
     opacity: 1 !important;
 }
 
-@media (min-width: 768px) {
-    .hero-inner {
-        padding: clamp(2rem, 5vh, 4rem) 2.5rem;
-        gap: clamp(1rem, 2.5vh, 2rem);
-    }
-}
-
+/* Заголовок — по макету */
 .hero-headline {
     font-family: Raleway, sans-serif;
     font-weight: 500;
-    font-size: clamp(1.75rem, 4.5vw, 4.5rem);
-    line-height: 1.1;
+    font-style: normal;
+    font-size: clamp(2rem, 10vw, 120px);
+    line-height: 100%;
     letter-spacing: -0.05em;
     color: #F2ECE5;
     text-align: center;
     margin: 0;
+    text-transform: uppercase;
+}
+
+.hero-headline-line {
+    display: block;
 }
 
 .hero-headline .highlight {
@@ -242,21 +242,19 @@ section {
     -webkit-text-fill-color: #9E9772;
 }
 
+/* Подзаголовок — по макету */
 .hero-subtitle {
     font-family: Raleway, sans-serif;
     font-weight: 400;
-    font-size: 1rem;
-    line-height: 1.4;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 140%;
     letter-spacing: -0.01em;
     color: #888891;
     text-align: center;
     margin: 0;
     max-width: 42rem;
     font-variant-numeric: lining-nums proportional-nums;
-}
-
-@media (min-width: 768px) {
-    .hero-subtitle { font-size: 1.125rem; }
 }
 
 /* Разделитель: пунктир + звёздочка */
