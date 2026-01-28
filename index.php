@@ -304,6 +304,52 @@ get_header();
             </div>
         </div>
     </section>
+
+    <section class="reject-section" id="not-for-all" aria-label="Честно скажем: МЫ НЕ ДЛЯ ВСЕХ">
+        <div class="reject-bg" aria-hidden="true"></div>
+        <div class="reject-inner">
+            <div class="reject-header">
+                <span class="reject-vline" aria-hidden="true"></span>
+                <h2 class="reject-title">Честно скажем: МЫ НЕ ДЛЯ ВСЕХ</h2>
+            </div>
+            <div class="reject-grid">
+                <div class="reject-card">
+                    <span class="reject-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg></span>
+                    <p class="reject-card-text">Стартапы на стадии идеи без бюджета</p>
+                </div>
+                <div class="reject-card">
+                    <span class="reject-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg></span>
+                    <p class="reject-card-text">Компании без готовности к изменениям</p>
+                </div>
+                <div class="reject-card">
+                    <span class="reject-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg></span>
+                    <p class="reject-card-text">Проекты «сделайте как у конкурентов» без своей стратегии</p>
+                </div>
+                <div class="reject-card">
+                    <span class="reject-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg></span>
+                    <p class="reject-card-text">Запросы на разовые задачи без долгосрочного партнёрства</p>
+                </div>
+            </div>
+            <div class="reject-footer">
+                <p class="reject-text">Отказываем, чтобы сохранить фокус. Каждый неподходящий проект отнимает ресурс у тех, кому действительно можем помочь.</p>
+                <div class="reject-footer-right">
+                    <div class="reject-nav" aria-hidden="true">
+                        <span class="reject-bar reject-bar--active"></span>
+                        <span class="reject-bar"></span>
+                        <span class="reject-bar"></span>
+                        <span class="reject-bar"></span>
+                        <span class="reject-bar"></span>
+                    </div>
+                    <a href="#contact" class="reject-cta">
+                        ОБСУДИТЬ СИТУАЦИЮ
+                        <span class="reject-cta-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M7 7h10v10"/></svg>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
 </main>
 
 <?php
