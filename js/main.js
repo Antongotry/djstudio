@@ -79,20 +79,6 @@
         initSmoothScroll();
     }
 
-    // Add parallax effect to hero background
-    window.addEventListener('scroll', function() {
-        const heroSection = document.querySelector('.hero-section');
-        if (!heroSection) return;
-        
-        const scrolled = window.pageYOffset;
-        const heroContent = document.querySelector('.hero-content');
-        
-        if (heroContent && scrolled < window.innerHeight) {
-            heroContent.style.transform = `translateY(${scrolled * 0.5}px)`;
-            heroContent.style.opacity = 1 - (scrolled / window.innerHeight) * 0.5;
-        }
-    });
-
     // Check section functionality
     function initCheckSection() {
         const checkGrid = document.getElementById('checkGrid');

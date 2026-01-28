@@ -134,16 +134,19 @@ section {
 /* Hero Section */
 .hero-section {
     min-height: 100vh;
+    height: 100vh;
+    max-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 120px 40px 80px;
     position: relative;
-    overflow-x: hidden;
+    overflow: hidden;
     width: 100%;
     margin: 0 auto;
     clear: both;
+    box-sizing: border-box;
 }
 
 @media (min-width: 1024px) {
