@@ -835,6 +835,207 @@ section {
     }
 }
 
+/* Digitization Section — Оцифровка процессов */
+.digit-section {
+    position: relative;
+    z-index: 1;
+    min-height: auto;
+    padding: 0;
+    overflow-x: hidden;
+    width: 100%;
+    display: block;
+    margin: 0;
+    clear: both;
+}
+
+.digit-bg {
+    position: absolute;
+    inset: 0;
+    background: #161719;
+    z-index: 0;
+}
+
+.digit-inner {
+    position: relative;
+    z-index: 1;
+    max-width: var(--site-width);
+    width: 100%;
+    margin: 0 auto;
+    padding: 80px 40px 100px;
+    box-sizing: border-box;
+}
+
+.digit-title {
+    font-family: Raleway, sans-serif;
+    font-size: clamp(2rem, 3vw, 48px);
+    font-weight: 600;
+    color: #e8e8e8;
+    margin: 0 0 28px 0;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+}
+
+.digit-desc-block,
+.digit-subhead-block {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.digit-vline {
+    width: 1px;
+    height: 48px;
+    min-height: 48px;
+    background: rgba(255, 255, 255, 0.2);
+    flex-shrink: 0;
+}
+
+.digit-subhead-block .digit-vline {
+    height: 28px;
+    min-height: 28px;
+}
+
+.digit-desc-text {
+    flex: 1;
+}
+
+.digit-desc-text p {
+    font-family: Raleway, sans-serif;
+    font-size: clamp(16px, 1.2em, 18px);
+    font-weight: 400;
+    color: #e0e0e0;
+    margin: 0 0 8px 0;
+    line-height: 1.5;
+}
+
+.digit-desc-text p:last-child {
+    margin-bottom: 0;
+}
+
+.digit-quote {
+    font-style: italic;
+    color: #D4BE84;
+}
+
+.digit-subhead {
+    font-family: Raleway, sans-serif;
+    font-size: clamp(16px, 1.2em, 18px);
+    font-weight: 400;
+    color: #e0e0e0;
+    margin: 0;
+}
+
+.digit-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    margin-top: 32px;
+}
+
+.digit-card {
+    position: relative;
+    background: rgba(28, 29, 31, 0.95);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 8px;
+    padding: 28px 24px;
+    min-height: 160px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.digit-card-pattern {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 80px;
+    height: 80px;
+    background: repeating-linear-gradient(
+        -45deg,
+        transparent,
+        transparent 4px,
+        rgba(255, 255, 255, 0.03) 4px,
+        rgba(255, 255, 255, 0.03) 5px
+    );
+    pointer-events: none;
+}
+
+.digit-card-pattern--tl {
+    top: 0;
+    right: auto;
+    left: 0;
+}
+
+.digit-card-pattern--bl {
+    top: auto;
+    right: auto;
+    left: 0;
+    bottom: 0;
+}
+
+.digit-card-pattern--br {
+    top: auto;
+    right: 0;
+    bottom: 0;
+}
+
+.digit-card-num {
+    font-family: Raleway, sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #e8e8e8;
+    margin-bottom: 8px;
+}
+
+.digit-card-line {
+    display: block;
+    width: 40px;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.25);
+    margin-bottom: 16px;
+}
+
+.digit-card-text {
+    font-family: Raleway, sans-serif;
+    font-size: clamp(15px, 1.1em, 17px);
+    font-weight: 400;
+    color: #e0e0e0;
+    line-height: 1.5;
+    margin: 0 0 20px 0;
+    flex: 1;
+}
+
+.digit-card-icons {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.digit-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.digit-icon svg {
+    width: 22px;
+    height: 22px;
+}
+
+@media (max-width: 768px) {
+    .digit-inner {
+        padding: 60px 20px 80px;
+    }
+    .digit-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+}
+
 /* Choose Section */
 .choose-section {
     min-height: 100vh;

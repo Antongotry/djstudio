@@ -144,6 +144,66 @@ get_header();
             </div>
         </div>
     </section>
+
+    <section class="digit-section" id="digitization" aria-label="Оцифровка процессов">
+        <div class="digit-bg" aria-hidden="true"></div>
+        <div class="digit-inner">
+            <h2 class="digit-title">Оцифровка процессов</h2>
+            <div class="digit-desc-block">
+                <span class="digit-vline" aria-hidden="true"></span>
+                <div class="digit-desc-text">
+                    <p>Прозрачная система с метриками вместо <em class="digit-quote">«так исторически сложилось».</em></p>
+                    <p>Управление по цифрам в реальном времени.</p>
+                </div>
+            </div>
+            <div class="digit-subhead-block">
+                <span class="digit-vline" aria-hidden="true"></span>
+                <h3 class="digit-subhead">Что получите:</h3>
+            </div>
+            <div class="digit-grid">
+                <div class="digit-card">
+                    <div class="digit-card-pattern" aria-hidden="true"></div>
+                    <div class="digit-card-num">01</div>
+                    <span class="digit-card-line" aria-hidden="true"></span>
+                    <p class="digit-card-text">Дашборды с ключевыми метриками для бизнеса</p>
+                    <div class="digit-card-icons">
+                        <span class="digit-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 17l4-4 4 4 6-8 4 4"/></svg></span>
+                        <span class="digit-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="9"/><path d="M12 3v9l7 4"/></svg></span>
+                    </div>
+                </div>
+                <div class="digit-card">
+                    <div class="digit-card-pattern digit-card-pattern--tl" aria-hidden="true"></div>
+                    <div class="digit-card-num">02</div>
+                    <span class="digit-card-line" aria-hidden="true"></span>
+                    <p class="digit-card-text">Сквозная аналитика от лица до выручки</p>
+                    <div class="digit-card-icons">
+                        <span class="digit-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 17l4-4 4 4 6-8 4 4"/></svg></span>
+                        <span class="digit-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="8" r="3"/><path d="M5 21v-2a4 4 0 014-4h6a4 4 0 014 4v2"/></svg></span>
+                    </div>
+                </div>
+                <div class="digit-card">
+                    <div class="digit-card-pattern digit-card-pattern--bl" aria-hidden="true"></div>
+                    <div class="digit-card-num">03</div>
+                    <span class="digit-card-line" aria-hidden="true"></span>
+                    <p class="digit-card-text">Автоматические отчёты без ручной работы</p>
+                    <div class="digit-card-icons">
+                        <span class="digit-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><path d="M14 2v6h6M16 13H8M16 17H8M10 9H8"/></svg></span>
+                        <span class="digit-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2l3 7h7l-5.5 4 2 7-6.5-4.5L5.5 20l2-7L2 9h7z"/></svg></span>
+                    </div>
+                </div>
+                <div class="digit-card">
+                    <div class="digit-card-pattern digit-card-pattern--br" aria-hidden="true"></div>
+                    <div class="digit-card-num">04</div>
+                    <span class="digit-card-line" aria-hidden="true"></span>
+                    <p class="digit-card-text">Алерты при отклонении от нормы</p>
+                    <div class="digit-card-icons">
+                        <span class="digit-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M8 3H5a2 2 0 00-2 2v3m18 0V5a2 2 0 00-2-2h-3m0 0h18M8 21H5a2 2 0 01-2-2v-3m18 0v3a2 2 0 01-2 2h-3m0 0h18M3 8v8m0 0h18M3 16h18"/></svg></span>
+                        <span class="digit-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 21h18M3 10h18M5 6l7-3 7 3M4 10v11M20 10v11M8 14v4M12 14v4M16 14v4"/></svg></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </main>
 
 <?php
