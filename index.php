@@ -14,19 +14,19 @@ get_header();
         
         <div class="hero-content">
             <h1 class="hero-headline">
-                Сколько <span class="highlight">часов</span> в неделю вы <span class="highlight">тратите</span> на то, что должна делать <span class="highlight">система</span>?
+                Сколько <span class="highlight">часов</span> в неделю вы <span class="highlight">тратите</span> на то, что <span class="highlight">должна делать система</span>?
             </h1>
             
             <p class="hero-subtitle">
-                Мы строим digital-инфраструктуру, которая работает без вас. Автоматизация. AI. Разработка. Бренд Технологический партнёр для бизнеса $IM-
+                Мы строим digital-инфраструктуру, которая работает без вас. Автоматизация. AI. Разработка. Бренд. Технологический партнёр для бизнеса $1M+
             </p>
             
             <div class="hero-cta">
                 <a href="#contact" class="cta-button cta-button-primary">
                     ОСВОБОДИТЬ ВРЕМЯ
                     <div class="cta-icon">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M7 17L17 7M7 7h10v10"/>
                         </svg>
                     </div>
                 </a>
@@ -50,12 +50,8 @@ get_header();
                     <div class="stat-label">Остаются на сопровождении</div>
                 </div>
                 <div class="stat-item">
-                    <div class="stat-value">10х</div>
+                    <div class="stat-value">10x</div>
                     <div class="stat-label">Масштабируемость бизнеса</div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-value">24/7</div>
-                    <div class="stat-label">Техническая поддержка</div>
                 </div>
             </div>
         </div>
