@@ -1208,6 +1208,170 @@ section {
     }
 }
 
+/* Clients Section — Мы работаем с теми, кто готов к трансформации */
+.clients-section {
+    position: relative;
+    z-index: 1;
+    min-height: auto;
+    padding: 0;
+    overflow-x: hidden;
+    width: 100%;
+    display: block;
+    margin: 0;
+    clear: both;
+}
+
+.clients-bg {
+    position: absolute;
+    inset: 0;
+    background: #161719;
+    z-index: 0;
+}
+
+.clients-inner {
+    position: relative;
+    z-index: 1;
+    max-width: var(--site-width);
+    width: 100%;
+    margin: 0 auto;
+    padding: 80px 40px 100px;
+    box-sizing: border-box;
+}
+
+.clients-header {
+    margin-bottom: 40px;
+}
+
+.clients-title {
+    font-family: Raleway, sans-serif;
+    font-size: clamp(28px, 3.5vw, 48px);
+    font-weight: 600;
+    color: #e8e8e8;
+    margin: 0 0 28px 0;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+}
+
+.clients-header-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+.clients-label {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    flex-shrink: 0;
+}
+
+.clients-number {
+    font-family: Raleway, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #999;
+}
+
+.clients-brand {
+    font-family: Raleway, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #e0e0e0;
+}
+
+.clients-subtitle {
+    font-family: Raleway, sans-serif;
+    font-size: clamp(15px, 1.15em, 18px);
+    font-weight: 400;
+    color: #b0b0b0;
+    line-height: 1.5;
+    margin: 0;
+    max-width: 560px;
+}
+
+.clients-problems-head {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 28px;
+}
+
+.clients-vline {
+    width: 1px;
+    height: 32px;
+    background: #D4BE84;
+    flex-shrink: 0;
+}
+
+.clients-problems-title {
+    font-family: Raleway, sans-serif;
+    font-size: clamp(18px, 1.5vw, 22px);
+    font-weight: 400;
+    color: #e0e0e0;
+    margin: 0;
+}
+
+.clients-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.clients-card {
+    background: rgba(28, 29, 31, 0.95);
+    border: 1px solid rgba(212, 190, 132, 0.35);
+    border-radius: 8px;
+    padding: 24px 22px;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    min-height: 100px;
+}
+
+.clients-icon {
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #D4BE84;
+}
+
+.clients-icon svg {
+    width: 28px;
+    height: 28px;
+}
+
+.clients-card-text {
+    font-family: Raleway, sans-serif;
+    font-size: clamp(14px, 1em, 16px);
+    font-weight: 400;
+    color: #e0e0e0;
+    line-height: 1.45;
+    margin: 0;
+}
+
+@media (max-width: 1024px) {
+    .clients-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .clients-inner {
+        padding: 60px 20px 80px;
+    }
+    .clients-header-row {
+        flex-direction: column;
+        gap: 16px;
+    }
+    .clients-grid {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+}
+
 /* Choose Section */
 .choose-section {
     min-height: 100vh;

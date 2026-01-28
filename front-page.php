@@ -246,6 +246,64 @@ get_header();
             </div>
         </div>
     </section>
+
+    <section class="clients-section" id="clients" aria-label="Мы работаем с теми, кто готов к трансформации">
+        <div class="clients-bg" aria-hidden="true"></div>
+        <div class="clients-inner">
+            <div class="clients-header">
+                <h2 class="clients-title">Мы работаем с теми, кто готов к трансформации</h2>
+                <div class="clients-header-row">
+                    <div class="clients-label">
+                        <span class="clients-number">003</span>
+                        <span class="clients-brand">Upgrade lab</span>
+                    </div>
+                    <p class="clients-subtitle">Компаниями которые уже доказали product-market fit, но упёрлись в инфраструктурный потолок.</p>
+                </div>
+            </div>
+            <div class="clients-problems-head">
+                <span class="clients-vline" aria-hidden="true"></span>
+                <h3 class="clients-problems-title">Проблемы наших клиентов:</h3>
+            </div>
+            <div class="clients-grid">
+                <div class="clients-card">
+                    <span class="clients-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="9"/><path d="M12 6v6l4 2"/></svg></span>
+                    <p class="clients-card-text">На стратегию времени нет — только операционка</p>
+                </div>
+                <div class="clients-card">
+                    <span class="clients-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="8" r="3"/><path d="M5 21v-2a4 4 0 014-4h6a4 4 0 014 4v2"/></svg></span>
+                    <p class="clients-card-text">Всё завязано на собственнике</p>
+                </div>
+                <div class="clients-card">
+                    <span class="clients-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/><path d="M12 13h.01"/></svg></span>
+                    <p class="clients-card-text">Уход одного человека ставит процессы под угрозу</p>
+                </div>
+                <div class="clients-card">
+                    <span class="clients-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 7h16M4 12h16M4 17h16"/></svg></span>
+                    <p class="clients-card-text">Данные разбросаны по системам без единой картины</p>
+                </div>
+                <div class="clients-card">
+                    <span class="clients-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></span>
+                    <p class="clients-card-text">Риски и зависимость от ключевых людей</p>
+                </div>
+                <div class="clients-card">
+                    <span class="clients-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/></svg></span>
+                    <p class="clients-card-text">Ручные процессы съедают ресурсы</p>
+                </div>
+                <div class="clients-card">
+                    <span class="clients-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 17l4-4 4 4 6-8 4 4"/></svg></span>
+                    <p class="clients-card-text">Рост упирается в узкие места</p>
+                </div>
+                <div class="clients-card">
+                    <span class="clients-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 21h18M3 10h18M5 6l7-3 7 3M4 10v11M20 10v11M8 14v4M12 14v4M16 14v4"/></svg></span>
+                    <p class="clients-card-text">Нет прозрачности по метрикам</p>
+                </div>
+                <div class="clients-card">
+                    <span class="clients-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg></span>
+                    <p class="clients-card-text">Цели есть, но нет системы их достижения</p>
+                </div>
+            </div>
+        </div>
+    </section>
 </main>
 
 <?php
