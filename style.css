@@ -1318,37 +1318,64 @@ section {
 }
 
 .clients-card {
-    background: rgba(28, 29, 31, 0.95);
-    border: 1px solid rgba(212, 190, 132, 0.35);
-    border-radius: 8px;
-    padding: 24px 22px;
+    position: relative;
+    background: #282828;
+    border: 1px solid rgba(212, 190, 132, 0.25);
+    border-radius: 10px;
+    padding: 28px 26px;
     display: flex;
-    align-items: flex-start;
-    gap: 20px;
-    min-height: 100px;
+    align-items: center;
+    gap: 28px;
+    min-height: 120px;
+    overflow: hidden;
+}
+
+/* Декоративные линии в правом верхнем углу карточки */
+.clients-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 50%;
+    pointer-events: none;
+    background-image:
+        linear-gradient(to right, rgba(255,255,255,0.05) 1px, transparent 1px),
+        linear-gradient(to right, rgba(255,255,255,0.05) 1px, transparent 1px),
+        linear-gradient(135deg, rgba(255,255,255,0.04) 1px, transparent 1px),
+        linear-gradient(-135deg, rgba(255,255,255,0.04) 1px, transparent 1px);
+    background-size: 100% 1px, 100% 1px, 8px 8px, 8px 8px;
+    background-position: 12px 14px, 12px 22px, top right, top right;
+    background-repeat: no-repeat;
 }
 
 .clients-icon {
-    width: 40px;
-    height: 40px;
+    width: 72px;
+    height: 72px;
     flex-shrink: 0;
     display: inline-flex;
     align-items: center;
     justify-content: center;
     color: #D4BE84;
+    /* Нимб из концентрических кругов */
+    box-shadow:
+        0 0 0 1px rgba(212, 190, 132, 0.35),
+        0 0 0 4px rgba(212, 190, 132, 0.15),
+        0 0 0 8px rgba(212, 190, 132, 0.08);
+    border-radius: 50%;
 }
 
 .clients-icon svg {
-    width: 28px;
-    height: 28px;
+    width: 40px;
+    height: 40px;
 }
 
 .clients-card-text {
     font-family: Raleway, sans-serif;
-    font-size: clamp(14px, 1em, 16px);
+    font-size: clamp(16px, 1.15em, 18px);
     font-weight: 400;
-    color: #e0e0e0;
-    line-height: 1.45;
+    color: #e8e8e8;
+    line-height: 1.5;
     margin: 0;
 }
 
