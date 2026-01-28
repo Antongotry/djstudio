@@ -23,17 +23,42 @@ get_header();
             </p>
             <div class="hero-cta">
                 <a href="#contact" class="cta-btn cta-primary">
-                    ОСВОБОДИТЬ ВРЕМЯ
+                    <span class="cta-btn-text">ОСВОБОДИТЬ ВРЕМЯ</span>
                     <span class="cta-icon-box">
                         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M7 7h10v10"/></svg>
                     </span>
                 </a>
                 <a href="#check-yourself" class="cta-btn cta-secondary">
-                    КАК ЭТО РАБОТАЕТ
+                    <span class="cta-btn-text">КАК ЭТО РАБОТАЕТ</span>
                     <span class="cta-icon-box">
                         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
                     </span>
                 </a>
+            </div>
+            <div class="hero-stats">
+                <div class="hero-stat">
+                    <span class="hero-stat-value">$1M<sup>+</sup></span>
+                    <div class="hero-stat-text">
+                        <span class="hero-stat-line1">Клиенты</span>
+                        <span class="hero-stat-line2">с годовым оборотом</span>
+                    </div>
+                </div>
+                <span class="hero-stats-sep" aria-hidden="true"></span>
+                <div class="hero-stat">
+                    <span class="hero-stat-value">70%</span>
+                    <div class="hero-stat-text">
+                        <span class="hero-stat-line1">Остаются</span>
+                        <span class="hero-stat-line2">на сопровождении</span>
+                    </div>
+                </div>
+                <span class="hero-stats-sep" aria-hidden="true"></span>
+                <div class="hero-stat">
+                    <span class="hero-stat-value">10<sup>×</sup></span>
+                    <div class="hero-stat-text">
+                        <span class="hero-stat-line1">Масштабируемость</span>
+                        <span class="hero-stat-line2">бизнеса</span>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
