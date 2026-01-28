@@ -9,13 +9,15 @@
 <?php wp_body_open(); ?>
 
 <header class="site-header">
-    <a href="<?php echo esc_url(home_url('/')); ?>" class="logo">
-        <div class="logo-icon"></div>
-        <span>Upgrade lab</span>
-    </a>
-    <button class="menu-toggle" aria-label="Toggle menu">
-        <span></span>
-        <span></span>
-        <span></span>
-    </button>
+    <div class="header-inner">
+        <a href="<?php echo esc_url(home_url('/')); ?>" class="logo">
+            <div class="logo-icon"></div>
+            <span>Upgrade lab</span>
+        </a>
+        <button class="menu-toggle" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </div>
 </header>
