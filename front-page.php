@@ -353,6 +353,96 @@ get_header();
             </div>
         </div>
     </section>
+
+    <section class="benefits-section" id="benefits" aria-label="Что вы получите:">
+        <div class="benefits-bg" aria-hidden="true"></div>
+        <div class="benefits-inner">
+            <div class="benefits-header">
+                <h2 class="benefits-title">Что вы получите:</h2>
+                <div class="benefits-header-row">
+                    <div class="benefits-label">
+                        <span class="benefits-number">004</span>
+                        <span class="benefits-brand">Upgrade lab</span>
+                    </div>
+                    <p class="benefits-subtitle">Не услуги - результаты для вашего бизнеса</p>
+                    <p class="benefits-placeholder">Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+                </div>
+            </div>
+            <div class="benefits-grid">
+                <div class="benefits-card">
+                    <span class="benefits-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg></span>
+                    <h3 class="benefits-card-title">Лиды вместо трафика</h3>
+                    <p class="benefits-card-desc">Сайт, который не просто «есть в интернете», а системно конвертирует посетителей в заявки. Управляемый. Измеримый.</p>
+                    <div class="benefits-tags">
+                        <span class="benefits-tag">Разработка сайтов</span>
+                        <span class="benefits-tag">Сквозная аналитика</span>
+                    </div>
+                </div>
+                <div class="benefits-card">
+                    <span class="benefits-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="9"/><path d="M12 6v6l4 2"/></svg></span>
+                    <h3 class="benefits-card-title">Часы вместо рутины</h3>
+                    <p class="benefits-card-desc">Процессы, которые раньше съедали до 20 часов в неделю, работают автоматически. Вы занимаетесь стратегией.</p>
+                    <div class="benefits-tags">
+                        <span class="benefits-tag">Автоматизация</span>
+                        <span class="benefits-tag">AI-инструменты</span>
+                        <span class="benefits-tag">RPA & боты</span>
+                    </div>
+                </div>
+                <div class="benefits-card">
+                    <span class="benefits-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 21h18M3 10h18M5 6l7-3 7 3M4 10v11M20 10v11M8 14v4M12 14v4M16 14v4"/></svg></span>
+                    <h3 class="benefits-card-title">Цифры вместо ощущений</h3>
+                    <p class="benefits-card-desc">Управление бизнесом на основе данных в реальном времени. Прозрачность. Предсказуемость. Контроль.</p>
+                    <div class="benefits-tags">
+                        <span class="benefits-tag">Дашборды</span>
+                        <span class="benefits-tag">Оцифровка процессов</span>
+                    </div>
+                </div>
+                <div class="benefits-card">
+                    <span class="benefits-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4.5 16.5c0-1.5 1.5-3 3-3s3 1.5 3 3-1.5 3-3 3-3-1.5-3-3zM19.5 4.5c0-1.5-1.5-3-3-3s-3 1.5-3 3 1.5 3 3 3 3-1.5 3-3zM12 2l-2 4h4l-2-4zM12 22l-2-4h4l-2 4z"/></svg></span>
+                    <h3 class="benefits-card-title">Масштаб вместо потолка</h3>
+                    <p class="benefits-card-desc">Продукты, построенные под «x10 рост». Не придётся переделывать, когда бизнес вырастет.</p>
+                    <div class="benefits-tags">
+                        <span class="benefits-tag">ІТ-продукты</span>
+                        <span class="benefits-tag">Платформы</span>
+                        <span class="benefits-tag">Интеграции</span>
+                    </div>
+                </div>
+                <div class="benefits-card">
+                    <span class="benefits-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 17l4-4 4 4 6-8 4 4"/><path d="M7 7h14v14H7z"/></svg></span>
+                    <h3 class="benefits-card-title">Капитализация вместо затрат</h3>
+                    <p class="benefits-card-desc">Бренд, который отражает реальный масштаб бизнеса и работает на его стоимость. Не косметика – трансформация.</p>
+                    <div class="benefits-tags">
+                        <span class="benefits-tag">Брендинг</span>
+                        <span class="benefits-tag">Дизайн</span>
+                    </div>
+                </div>
+                <div class="benefits-card">
+                    <span class="benefits-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M18.178 8c-1.5 0-2.5 1-2.5 2.5s1 2.5 2.5 2.5c1.5 0 2.5-1 2.5-2.5S19.678 8 18.178 8zM5.822 8c-1.5 0-2.5 1-2.5 2.5s1 2.5 2.5 2.5c1.5 0 2.5-1 2.5-2.5S7.322 8 5.822 8zM8.5 10.5c-1.5 0-2.5 1-2.5 2.5s1 2.5 2.5 2.5c1.5 0 2.5-1 2.5-2.5S10 10.5 8.5 10.5zM15.5 10.5c-1.5 0-2.5 1-2.5 2.5s1 2.5 2.5 2.5c1.5 0 2.5-1 2.5-2.5S17 10.5 15.5 10.5z"/></svg></span>
+                    <h3 class="benefits-card-title">Актуальность вместо «сделали и забыли»</h3>
+                    <p class="benefits-card-desc">Продукты, построенные под «x10 рост». Не придётся переделывать, когда бизнес вырастет.</p>
+                    <div class="benefits-tags">
+                        <span class="benefits-tag">Сопровождение</span>
+                    </div>
+                    <p class="benefits-card-note">70% наших клиентов на постоянном сопровождении</p>
+                </div>
+            </div>
+            <div class="benefits-footer">
+                <div class="benefits-nav" aria-hidden="true">
+                    <span class="benefits-bar benefits-bar--active"></span>
+                    <span class="benefits-bar benefits-bar--active"></span>
+                    <span class="benefits-bar"></span>
+                    <span class="benefits-bar"></span>
+                    <span class="benefits-bar"></span>
+                </div>
+                <a href="#contact" class="benefits-cta">
+                    ОБСУДИТЬ СИТУАЦИЮ
+                    <span class="benefits-cta-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M7 7h10v10"/></svg>
+                    </span>
+                </a>
+            </div>
+        </div>
+    </section>
 </main>
 
 <?php
