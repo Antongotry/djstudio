@@ -330,8 +330,10 @@ get_header();
                     <p class="reject-card-text">Бизнес, ищущий исполнителей, а не партнёров</p>
                 </div>
             </div>
-            <div class="reject-footer">
+            <div class="reject-text-block">
                 <p class="reject-text">Отказываем, чтобы сохранить фокус. Каждый неподходящий проект отнимает ресурс у тех, кому <strong>действительно можем помочь.</strong></p>
+            </div>
+            <div class="reject-footer">
                 <div class="reject-footer-right">
                     <div class="reject-nav" aria-hidden="true">
                         <span class="reject-bar reject-bar--active"></span>
