@@ -615,6 +615,63 @@ get_header();
             </div>
         </div>
     </section>
+
+    <section class="who-section" id="who-we-are" aria-label="Кто мы для вас?">
+        <div class="who-bg" aria-hidden="true"></div>
+        <div class="who-inner">
+            <div class="who-header">
+                <div class="who-header-left">
+                    <h2 class="who-title">Кто мы для вас?</h2>
+                    <div class="who-label">
+                        <span class="who-number">007</span>
+                        <span class="who-vline" aria-hidden="true"></span>
+                        <span class="who-brand">Upgrade lab</span>
+                    </div>
+                    <p class="who-subtitle">Ваш digital-отдел, только без найма в штат</p>
+                </div>
+                <p class="who-note">Не подрядчики. Не исполнители.<br>Один партнёр на век.</p>
+            </div>
+            <div class="who-subhead-block">
+                <span class="who-subhead-bar" aria-hidden="true"></span>
+                <h3 class="who-subhead">4 преимущества</h3>
+            </div>
+            <div class="who-grid">
+                <div class="who-card">
+                    <span class="who-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg></span>
+                    <h4 class="who-card-title">Один партнёр вместо пяти подрядчиков</h4>
+                    <p class="who-card-desc">От стратегии до поддержки — вам не нужно никого координировать</p>
+                </div>
+                <div class="who-card">
+                    <span class="who-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="9"/><path d="M12 6v6l4 2"/></svg></span>
+                    <h4 class="who-card-title">Отвечаем за результат, а не за часы</h4>
+                    <p class="who-card-desc">70% клиентов остаются на сопровождении. Это говорит больше слов.</p>
+                </div>
+                <div class="who-card">
+                    <span class="who-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg></span>
+                    <h4 class="who-card-title">Меняем бизнес, не просто делаем сайты</h4>
+                    <p class="who-card-desc">Не редизайн ради редизайна — системные изменения</p>
+                </div>
+                <div class="who-card">
+                    <span class="who-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></span>
+                    <h4 class="who-card-title">Берём не всех</h4>
+                    <p class="who-card-desc">Фокус на сильных проектах. Взялись — доведём.</p>
+                </div>
+            </div>
+            <div class="who-footer">
+                <div class="who-nav" aria-hidden="true">
+                    <span class="who-bar who-bar--active"></span>
+                    <span class="who-bar"></span>
+                    <span class="who-bar"></span>
+                </div>
+                <a href="#contact" class="who-cta">
+                    ОБСУДИТЬ СИТУАЦИЮ
+                    <span class="who-cta-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M7 7h10v10"/></svg>
+                    </span>
+                </a>
+            </div>
+        </div>
+    </section>
 </main>
 
 <?php
