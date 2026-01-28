@@ -131,7 +131,7 @@ section {
     transition: all 0.3s ease;
 }
 
-/* Hero Section */
+/* Hero Section — строго 100vh, без внутреннего скролла */
 .hero-section {
     min-height: 100vh;
     height: 100vh;
@@ -140,7 +140,7 @@ section {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 120px 40px 80px;
+    padding: 80px 40px 40px;
     position: relative;
     overflow: hidden;
     width: 100%;
@@ -151,13 +151,13 @@ section {
 
 @media (min-width: 1024px) {
     .hero-section {
-        padding: 120px 60px 80px;
+        padding: 100px 60px 50px;
     }
 }
 
 @media (min-width: 1440px) {
     .hero-section {
-        padding: 120px 80px 80px;
+        padding: 100px 80px 50px;
     }
 }
 
@@ -241,7 +241,7 @@ section {
     }
 }
 
-/* Hero Content */
+/* Hero Content — помещается в 100vh без скролла */
 .hero-content {
     max-width: 1200px;
     width: 100%;
@@ -253,6 +253,9 @@ section {
     align-items: center;
     justify-content: center;
     padding: 0 20px;
+    flex-shrink: 1;
+    min-height: 0;
+    max-height: 100%;
 }
 
 @media (min-width: 1024px) {
@@ -266,16 +269,17 @@ section {
     font-family: Raleway, sans-serif;
     font-weight: 500;
     font-style: normal;
-    font-size: clamp(32px, 8vw, 120px);
+    font-size: clamp(32px, 6.5vw, 96px);
     line-height: 100%;
     letter-spacing: -0.05em;
-    margin-bottom: 30px;
+    margin-bottom: 16px;
     color: #F2ECE5;
     text-align: center;
     max-width: 100%;
     margin-left: auto;
     margin-right: auto;
     padding: 0;
+    flex-shrink: 0;
 }
 
 .hero-headline .highlight {
@@ -289,13 +293,14 @@ section {
     font-size: 18px;
     line-height: 140%;
     letter-spacing: -0.01em;
-    margin-bottom: 50px;
+    margin-bottom: 28px;
     color: #888891;
     max-width: 900px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     font-variant-numeric: lining-nums proportional-nums;
+    flex-shrink: 0;
 }
 
 /* CTA Buttons */
@@ -305,8 +310,9 @@ section {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin-bottom: 80px;
+    margin-bottom: 36px;
     width: 100%;
+    flex-shrink: 0;
 }
 
 .cta-button {
@@ -366,19 +372,21 @@ section {
 .hero-stats {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 40px;
+    gap: 24px;
     max-width: 1000px;
     width: 100%;
     margin: 0 auto;
-    padding-top: 60px;
+    padding-top: 28px;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
     justify-items: center;
     align-items: start;
+    flex-shrink: 0;
 }
 
 @media (min-width: 1024px) {
     .hero-stats {
-        gap: 60px;
+        gap: 40px;
+        padding-top: 36px;
     }
 }
 
