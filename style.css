@@ -228,7 +228,7 @@ section {
     font-family: Raleway, sans-serif;
     font-weight: 500;
     font-style: normal;
-    font-size: clamp(2rem, 10vw, 120px);
+    font-size: clamp(1rem, 5vw, 60px);
     line-height: 100%;
     letter-spacing: -0.05em;
     color: #F2ECE5;
