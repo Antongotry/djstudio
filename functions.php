@@ -70,3 +70,18 @@ function djstudio_body_classes($classes) {
     return $classes;
 }
 add_filter('body_class', 'djstudio_body_classes');
+
+/**
+ * На главной не выводить контент страницы из БД — только шаблон (hero).
+ * Убирает старые блоки content-section, check-section, choose-section, если они были сохранены в странице.
+ */
+function djstudio_front_page_only_hero($template) {
+    if (is_front_page() && ! is_home()) {
+        $hero_template = get_template_directory() . '/front-page.php';
+        if (file_exists($hero_template)) {
+            return $hero_template;
+        }
+    }
+    return $template;
+}
+add_filter('template_include', 'djstudio_front_page_only_hero', 99);
