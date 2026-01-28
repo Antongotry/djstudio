@@ -71,9 +71,9 @@ get_header();
         <div class="check-inner">
             <div class="check-header">
                 <div class="check-header-corners">
-                    <div class="check-label">
+                    <div class="check-header-left">
                         <span class="check-number">001</span>
-                        <span class="check-divider">|</span>
+                        <span class="check-vline" aria-hidden="true"></span>
                         <span class="check-brand">Upgrade <span class="check-brand-light">lab</span></span>
                     </div>
                     <p class="check-placeholder">Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>

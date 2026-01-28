@@ -547,83 +547,100 @@ section {
     justify-content: center;
 }
 
-/* Check Header — заголовок и вопрос по центру, метки в углах */
+/* Check Header — по макету: углы 001 | Upgrade lab и Lorem, по центру заголовок и вопрос */
 .check-header {
     position: relative;
     margin-bottom: 50px;
 }
 
 .check-header-corners {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
+    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    gap: 24px;
     pointer-events: none;
-}
-
-.check-label {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    font-size: 14px;
-    color: #888891;
-    pointer-events: auto;
-}
-
-.check-number {
-    font-weight: 500;
-}
-
-.check-divider {
-    color: rgba(255, 255, 255, 0.2);
-}
-
-.check-brand {
-    font-weight: 600;
-    color: #9E9772;
-}
-
-.check-brand-light {
-    font-weight: 300;
-}
-
-.check-placeholder {
-    font-size: 12px;
-    color: #888891;
-    font-weight: 300;
-    text-align: right;
-    max-width: 240px;
-    pointer-events: auto;
 }
 
 .check-header-center {
     text-align: center;
-    padding-top: 60px;
-    padding-bottom: 20px;
+    margin-top: 32px;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
 
 .check-title {
     font-family: Raleway, sans-serif;
-    font-size: clamp(21px, 3vw, 36px);
+    font-size: clamp(28px, 4vw, 48px);
     font-weight: 500;
     color: #F2ECE5;
-    margin-bottom: 24px;
+    margin: 0 0 12px 0;
     letter-spacing: -0.02em;
+    line-height: 1.2;
 }
 
 .check-title-accent {
-    color: #9E9772;
+    color: #D4BE84;
+}
+
+.check-header-center .check-question {
+    margin-top: 0;
+}
+
+.check-header-left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    pointer-events: auto;
+}
+
+.check-label {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    font-size: 14px;
+    pointer-events: auto;
+}
+
+.check-number {
+    font-weight: 400;
+    color: #999999;
+}
+
+.check-brand {
+    font-weight: 400;
+    color: #999999;
+}
+
+.check-brand-light {
+    font-weight: 300;
+    color: #B0B0B0;
+}
+
+.check-vline {
+    width: 1px;
+    height: 28px;
+    background: #D4BE84;
+    flex-shrink: 0;
 }
 
 .check-question {
     font-family: Raleway, sans-serif;
-    font-size: clamp(16px, 2vw, 20px);
+    font-size: clamp(14px, 1.8vw, 18px);
     font-weight: 400;
-    color: #F2ECE5;
+    color: #B0B0B0;
     margin: 0;
+    line-height: 1.4;
+}
+
+.check-placeholder {
+    font-size: 12px;
+    color: #666666;
+    font-weight: 300;
+    text-align: right;
+    max-width: 280px;
+    pointer-events: auto;
 }
 
 /* Check Grid */
@@ -790,18 +807,11 @@ section {
         grid-template-columns: repeat(2, 1fr);
     }
     
-    .check-header-center {
-        padding-top: 50px;
-    }
 }
 
 @media (max-width: 768px) {
     .check-inner {
         padding: 60px 20px;
-    }
-    
-    .check-header-center {
-        padding-top: 40px;
     }
     
     .check-placeholder {
