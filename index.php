@@ -452,6 +452,7 @@ get_header();
                 <div class="choose-new-header-row">
                     <div class="choose-new-label">
                         <span class="choose-new-number">005</span>
+                        <span class="choose-new-vline" aria-hidden="true"></span>
                         <span class="choose-new-brand">Upgrade lab</span>
                     </div>
                     <p class="choose-new-subtitle">Для вашей задачи мы рекомендуем:</p>
@@ -479,35 +480,35 @@ get_header();
             <div class="choose-new-content">
                 <div class="choose-new-main">
                     <h3 class="choose-new-section-label"><span class="choose-new-section-icon">★</span> ОСНОВНОЕ</h3>
-                    <div class="choose-new-block">
+                    <div class="choose-new-main-card">
                         <h4 class="choose-new-block-title">ІТ-продукты</h4>
                         <p class="choose-new-block-desc">От MVP до enterprise. Веб и мобильные приложения, платформы, маркетплейсы.</p>
                         <p class="choose-new-block-bullet">— Стабильный, масштабируемый продукт</p>
+                        <h3 class="choose-new-section-label choose-new-section-label--mt">ТИПИЧНЫЕ ПРОЕКТЫ:</h3>
+                        <div class="choose-new-tags">
+                            <span class="choose-new-tag">SaaS</span>
+                            <span class="choose-new-tag">Клиентский портал</span>
+                            <span class="choose-new-tag">Маркетплейс</span>
+                            <span class="choose-new-tag">Мобильное приложение</span>
+                        </div>
+                        <a href="#cases" class="choose-new-cta-link">
+                            СМОТРЕТЬ КЕЙСЫ
+                            <span class="choose-new-cta-link-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg></span>
+                        </a>
                     </div>
-                    <h3 class="choose-new-section-label choose-new-section-label--mt">ТИПИЧНЫЕ ПРОЕКТЫ:</h3>
-                    <div class="choose-new-tags">
-                        <span class="choose-new-tag">SaaS</span>
-                        <span class="choose-new-tag">Клиентский портал</span>
-                        <span class="choose-new-tag">Маркетплейс</span>
-                        <span class="choose-new-tag">Мобильное приложение</span>
-                    </div>
-                    <a href="#cases" class="choose-new-cta-link">
-                        СМОТРЕТЬ КЕЙСЫ
-                        <span class="choose-new-cta-link-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg></span>
-                    </a>
                 </div>
                 <div class="choose-new-side">
                     <h3 class="choose-new-section-label"><span class="choose-new-section-icon">+</span> УСИЛИТ РЕЗУЛЬТАТ</h3>
-                    <div class="choose-new-block choose-new-block--compact">
+                    <div class="choose-new-side-card">
                         <h4 class="choose-new-block-title">Оцифровка процессов</h4>
                         <p class="choose-new-block-desc">Метрики и дашборды</p>
                     </div>
-                    <div class="choose-new-block choose-new-block--compact">
+                    <div class="choose-new-side-card">
                         <h4 class="choose-new-block-title">Автоматизация</h4>
                         <p class="choose-new-block-desc">AI-интеграции</p>
                     </div>
                     <h3 class="choose-new-section-label choose-new-section-label--mt"><span class="choose-new-section-icon">∞</span> ПОСЛЕ ЗАПУСКА</h3>
-                    <div class="choose-new-block choose-new-block--compact">
+                    <div class="choose-new-side-card">
                         <h4 class="choose-new-block-title">Digital-сопровождение</h4>
                         <p class="choose-new-block-desc">Поддержка, развитие, оптимизация. 70% клиентов выбирают постоянное партнёрство.</p>
                     </div>
