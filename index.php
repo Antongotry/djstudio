@@ -7,51 +7,49 @@ get_header();
 ?>
 
 <main id="main" class="site-main">
-    <section class="hero-section">
-        <div class="hero-background"></div>
-        <div class="hero-grid"></div>
-        <div class="hero-particles" id="particles"></div>
-        
-        <div class="hero-content">
+    <section class="hero-section" aria-label="Главный экран">
+        <div class="hero-bg" aria-hidden="true"></div>
+        <div class="hero-grid" aria-hidden="true"></div>
+        <div class="hero-particles" id="particles" aria-hidden="true"></div>
+
+        <div class="hero-inner">
             <h1 class="hero-headline">
-                Сколько <span class="highlight">часов</span> в неделю вы <span class="highlight">тратите</span> на то, что <span class="highlight">должна делать система</span>?
+                Сколько <span class="highlight">часов</span> в неделю<br>вы <span class="highlight">тратите</span> на то, что<br><span class="highlight">должна делать система</span>?
             </h1>
-            
             <p class="hero-subtitle">
-                Мы строим digital-инфраструктуру, которая работает без вас. Автоматизация. AI. Разработка. Бренд. Технологический партнёр для бизнеса $1M+
+                Мы строим digital-инфраструктуру, которая работает без вас.<br>Автоматизация. AI. Разработка. Бренд.<br>Технологический партнёр для бизнеса $1M+
             </p>
-            
+            <div class="hero-divider">
+                <span class="hero-divider-line"></span>
+                <span class="hero-divider-icon" aria-hidden="true">✦</span>
+                <span class="hero-divider-line"></span>
+            </div>
             <div class="hero-cta">
-                <a href="#contact" class="cta-button cta-button-primary">
+                <a href="#contact" class="cta-btn cta-primary">
                     ОСВОБОДИТЬ ВРЕМЯ
-                    <div class="cta-icon">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M7 17L17 7M7 7h10v10"/>
-                        </svg>
-                    </div>
+                    <span class="cta-arrow">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M7 7h10v10"/></svg>
+                    </span>
                 </a>
-                <a href="#check-yourself" class="cta-button cta-button-secondary">
+                <a href="#check-yourself" class="cta-btn cta-secondary">
                     КАК ЭТО РАБОТАЕТ
-                    <div class="cta-icon">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M5 12h14M12 5l7 7-7 7"/>
-                        </svg>
-                    </div>
+                    <span class="cta-arrow">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    </span>
                 </a>
             </div>
-            
             <div class="hero-stats">
-                <div class="stat-item">
-                    <div class="stat-value">$1M</div>
-                    <div class="stat-label">Клиенты с годовым оборотом</div>
+                <div class="hero-stat">
+                    <span class="hero-stat-value">$1M</span>
+                    <span class="hero-stat-label">Клиенты с годовым оборотом</span>
                 </div>
-                <div class="stat-item">
-                    <div class="stat-value">70%</div>
-                    <div class="stat-label">Остаются на сопровождении</div>
+                <div class="hero-stat">
+                    <span class="hero-stat-value">70%</span>
+                    <span class="hero-stat-label">Остаются на сопровождении</span>
                 </div>
-                <div class="stat-item">
-                    <div class="stat-value">10x</div>
-                    <div class="stat-label">Масштабируемость бизнеса</div>
+                <div class="hero-stat">
+                    <span class="hero-stat-value">10x</span>
+                    <span class="hero-stat-label">Масштабируемость бизнеса</span>
                 </div>
             </div>
         </div>
