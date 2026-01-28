@@ -62,6 +62,86 @@ get_header();
             </div>
         </div>
     </section>
+
+    <section class="check-section" id="check-yourself" aria-label="Проверьте себя">
+        <div class="check-bg" aria-hidden="true"></div>
+        <div class="check-grid-bg" aria-hidden="true"></div>
+        <div class="check-inner">
+            <div class="check-header">
+                <div class="check-header-left">
+                    <h2 class="check-title">Проверьте <span class="check-title-accent">себя</span></h2>
+                    <div class="check-label">
+                        <span class="check-number">001</span>
+                        <span class="check-divider">|</span>
+                        <span class="check-brand">Upgrade <span class="check-brand-light">lab</span></span>
+                    </div>
+                </div>
+                <div class="check-header-right">
+                    <p class="check-question">Сколько пунктов про ваш бизнес?</p>
+                    <p class="check-placeholder">Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+                </div>
+            </div>
+            <div class="check-grid" id="checkGrid">
+                <div class="check-card" data-index="0">
+                    <div class="check-card-checkbox">
+                        <input type="checkbox" id="check-0" class="check-input">
+                        <label for="check-0" class="check-label-custom"></label>
+                    </div>
+                    <p class="check-card-text">Каждый новый проект требует моего личного участия</p>
+                </div>
+                <div class="check-card checked" data-index="1">
+                    <div class="check-card-checkbox">
+                        <input type="checkbox" id="check-1" class="check-input" checked>
+                        <label for="check-1" class="check-label-custom"></label>
+                    </div>
+                    <p class="check-card-text">Боюсь трогать ІТ-инфраструктуру — непонятно, что сломается</p>
+                </div>
+                <div class="check-card" data-index="2">
+                    <div class="check-card-checkbox">
+                        <input type="checkbox" id="check-2" class="check-input">
+                        <label for="check-2" class="check-label-custom"></label>
+                    </div>
+                    <p class="check-card-text">Сайт/бренд не отражает текущий масштаб компании</p>
+                </div>
+                <div class="check-card checked" data-index="3">
+                    <div class="check-card-checkbox">
+                        <input type="checkbox" id="check-3" class="check-input" checked>
+                        <label for="check-3" class="check-label-custom"></label>
+                    </div>
+                    <p class="check-card-text">Большая часть дня уходит на операционку, не на стратегию</p>
+                </div>
+                <div class="check-card" data-index="4">
+                    <div class="check-card-checkbox">
+                        <input type="checkbox" id="check-4" class="check-input">
+                        <label for="check-4" class="check-label-custom"></label>
+                    </div>
+                    <p class="check-card-text">Данные разбросаны по разным системам, нет единой картины</p>
+                </div>
+                <div class="check-card" data-index="5">
+                    <div class="check-card-checkbox">
+                        <input type="checkbox" id="check-5" class="check-input">
+                        <label for="check-5" class="check-label-custom"></label>
+                    </div>
+                    <p class="check-card-text">Масштабирование упирается в ручные процессы</p>
+                </div>
+            </div>
+            <div class="check-summary">
+                <div class="check-summary-left">
+                    <p class="check-summary-text">
+                        <span class="check-summary-label">Отмечено: </span>
+                        <span class="check-summary-count" id="checkCount">2/6</span>
+                    </p>
+                    <p class="check-summary-message">Если 2+ вам точно стоит поговорить с нами</p>
+                </div>
+                <a href="#contact" class="check-cta-button">
+                    ОБСУДИТЬ СИТУАЦИЮ
+                    <span class="check-cta-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M7 7h10v10"/></svg>
+                    </span>
+                </a>
+            </div>
+        </div>
+    </section>
 </main>
 
 <?php
