@@ -129,17 +129,34 @@
         updateCount();
     }
 
+    // FAQ accordion
+    function initFaqSection() {
+        document.querySelectorAll('.faq-question').forEach(button => {
+            button.addEventListener('click', function() {
+                const expanded = this.getAttribute('aria-expanded') === 'true';
+                const answerId = this.getAttribute('aria-controls');
+                const answer = answerId ? document.getElementById(answerId) : null;
+                this.setAttribute('aria-expanded', !expanded);
+                if (answer) {
+                    answer.hidden = expanded;
+                }
+            });
+        });
+    }
+
     // Initialize check section when DOM is ready
     if (document.readyState === 'loading') {
         document.addEventListener('DOMContentLoaded', function() {
             initCheckSection();
             initChooseSection();
+            initFaqSection();
             // Show default content (digitization is active by default)
             showContentTab('digitization');
         });
     } else {
         initCheckSection();
         initChooseSection();
+        initFaqSection();
         // Show default content (digitization is active by default)
         showContentTab('digitization');
     }

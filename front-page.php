@@ -672,6 +672,115 @@ get_header();
             </div>
         </div>
     </section>
+
+    <section class="faq-section" id="faq" aria-label="Частые вопросы">
+        <div class="faq-bg" aria-hidden="true"></div>
+        <div class="faq-inner">
+            <div class="faq-header">
+                <div class="faq-header-left">
+                    <h2 class="faq-title">Частые <span class="faq-title-accent">вопросы</span></h2>
+                    <div class="faq-label">
+                        <span class="faq-number">008</span>
+                        <span class="faq-vline" aria-hidden="true"></span>
+                        <span class="faq-brand">Upgrade lab</span>
+                    </div>
+                    <p class="faq-intro">Простые объяснения, которые помогут вам начать работу и двигаться быстрее.</p>
+                </div>
+                <p class="faq-placeholder">Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+            </div>
+            <div class="faq-content">
+                <div class="faq-list">
+                    <div class="faq-item">
+                        <button type="button" class="faq-question" aria-expanded="false" aria-controls="faq-answer-1" id="faq-q-1">
+                            <span class="faq-question-text">Сколько стоят ваши услуги?</span>
+                            <span class="faq-toggle" aria-hidden="true"><span></span><span></span><span></span></span>
+                        </button>
+                        <div class="faq-answer" id="faq-answer-1" aria-labelledby="faq-q-1" hidden>
+                            <p>Стоимость зависит от объёма и сложности проекта. Мы фиксируем результат и бюджет на этапе брифа.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button type="button" class="faq-question" aria-expanded="false" aria-controls="faq-answer-2" id="faq-q-2">
+                            <span class="faq-question-text">Как долго длится типичный проект?</span>
+                            <span class="faq-toggle" aria-hidden="true"><span></span><span></span><span></span></span>
+                        </button>
+                        <div class="faq-answer" id="faq-answer-2" aria-labelledby="faq-q-2" hidden>
+                            <p>От нескольких недель до нескольких месяцев — в зависимости от целей. Сроки согласуем до старта.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button type="button" class="faq-question" aria-expanded="false" aria-controls="faq-answer-3" id="faq-q-3">
+                            <span class="faq-question-text">Что входит в сопровождение?</span>
+                            <span class="faq-toggle" aria-hidden="true"><span></span><span></span><span></span></span>
+                        </button>
+                        <div class="faq-answer" id="faq-answer-3" aria-labelledby="faq-q-3" hidden>
+                            <p>Поддержка, развитие, оптимизация. Единая точка контакта по всем digital-задачам.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button type="button" class="faq-question" aria-expanded="false" aria-controls="faq-answer-4" id="faq-q-4">
+                            <span class="faq-question-text">Работаете ли вы с компаниями из других регионов?</span>
+                            <span class="faq-toggle" aria-hidden="true"><span></span><span></span><span></span></span>
+                        </button>
+                        <div class="faq-answer" id="faq-answer-4" aria-labelledby="faq-q-4" hidden>
+                            <p>Да. Большая часть коммуникации — онлайн. Встречи при необходимости.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button type="button" class="faq-question" aria-expanded="false" aria-controls="faq-answer-5" id="faq-q-5">
+                            <span class="faq-question-text">С чего начать?</span>
+                            <span class="faq-toggle" aria-hidden="true"><span></span><span></span><span></span></span>
+                        </button>
+                        <div class="faq-answer" id="faq-answer-5" aria-labelledby="faq-q-5" hidden>
+                            <p>Напишите нам или оставьте заявку. Проведём короткий бриф и предложим варианты.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button type="button" class="faq-question" aria-expanded="false" aria-controls="faq-answer-6" id="faq-q-6">
+                            <span class="faq-question-text">Можно ли заказать только разработку сайта?</span>
+                            <span class="faq-toggle" aria-hidden="true"><span></span><span></span><span></span></span>
+                        </button>
+                        <div class="faq-answer" id="faq-answer-6" aria-labelledby="faq-q-6" hidden>
+                            <p>Да. Мы делаем и отдельные проекты, и комплексное партнёрство.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button type="button" class="faq-question" aria-expanded="false" aria-controls="faq-answer-7" id="faq-q-7">
+                            <span class="faq-question-text">Как вы считаете результат?</span>
+                            <span class="faq-toggle" aria-hidden="true"><span></span><span></span><span></span></span>
+                        </button>
+                        <div class="faq-answer" id="faq-answer-7" aria-labelledby="faq-q-7" hidden>
+                            <p>По метрикам: лиды, конверсия, время, прозрачность процессов. Договариваемся до старта.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="faq-inquiry">
+                    <h3 class="faq-inquiry-title">У вас остались вопросы?</h3>
+                    <p class="faq-inquiry-desc">Наши эксперты помогут разобраться в вашей задаче и подобрать оптимальный формат сотрудничества.</p>
+                    <a href="#contact" class="faq-inquiry-btn">
+                        ЗАДАТЬ ВОПРОС
+                        <span class="faq-inquiry-btn-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M7 7h10v10"/></svg>
+                        </span>
+                    </a>
+                    <div class="faq-inquiry-pattern" aria-hidden="true"></div>
+                </div>
+            </div>
+            <div class="faq-footer">
+                <div class="faq-nav" aria-hidden="true">
+                    <span class="faq-bar faq-bar--active"></span>
+                    <span class="faq-bar"></span>
+                    <span class="faq-bar"></span>
+                </div>
+                <a href="#contact" class="faq-cta">
+                    ОБСУДИТЬ СИТУАЦИЮ
+                    <span class="faq-cta-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M7 7h10v10"/></svg>
+                    </span>
+                </a>
+            </div>
+        </div>
+    </section>
 </main>
 
 <?php
