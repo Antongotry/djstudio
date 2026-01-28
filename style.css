@@ -2083,9 +2083,23 @@ section {
 }
 
 .choose-new-tab--active {
-    background: rgba(212, 190, 132, 0.2);
-    border-color: rgba(212, 190, 132, 0.5);
+    background: rgba(212, 190, 132, 0.25);
+    border-color: rgba(212, 190, 132, 0.6);
     color: #D4BE84;
+}
+
+.choose-new-tab-icon {
+    width: 18px;
+    height: 18px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.choose-new-tab-icon svg {
+    width: 100%;
+    height: 100%;
 }
 
 .choose-new-content {
@@ -2186,6 +2200,23 @@ section {
 .choose-new-cta-link:hover {
     color: #e0e0e0;
     border-color: rgba(255, 255, 255, 0.25);
+}
+
+.choose-new-cta-link-icon {
+    width: 20px;
+    height: 20px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 50%;
+    padding: 2px;
+}
+
+.choose-new-cta-link-icon svg {
+    width: 14px;
+    height: 14px;
 }
 
 .choose-new-footer {

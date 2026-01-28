@@ -459,10 +459,22 @@ get_header();
                 </div>
             </div>
             <div class="choose-new-tabs">
-                <button type="button" class="choose-new-tab" aria-pressed="false">Масштабироваться</button>
-                <button type="button" class="choose-new-tab choose-new-tab--active" aria-pressed="true">Новый продукт</button>
-                <button type="button" class="choose-new-tab" aria-pressed="false">Навести порядок</button>
-                <button type="button" class="choose-new-tab" aria-pressed="false">Обновить бренд</button>
+                <button type="button" class="choose-new-tab" aria-pressed="false">
+                    <span class="choose-new-tab-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><path d="M14 2v6h6M18 14l-4-4M14 14l4-4"/></svg></span>
+                    Масштабироваться
+                </button>
+                <button type="button" class="choose-new-tab choose-new-tab--active" aria-pressed="true">
+                    <span class="choose-new-tab-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"/><path d="M3.27 6.96L12 12.01l8.73-5.05M12 22.08V12"/></svg></span>
+                    Новый продукт
+                </button>
+                <button type="button" class="choose-new-tab" aria-pressed="false">
+                    <span class="choose-new-tab-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="3"/><path d="M12 1v6m0 6v6M5.64 5.64l4.24 4.24m4.24 4.24l4.24 4.24M1 12h6m6 0h6M5.64 18.36l4.24-4.24m4.24-4.24l4.24-4.24"/></svg></span>
+                    Навести порядок
+                </button>
+                <button type="button" class="choose-new-tab" aria-pressed="false">
+                    <span class="choose-new-tab-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></span>
+                    Обновить бренд
+                </button>
             </div>
             <div class="choose-new-content">
                 <div class="choose-new-main">
@@ -479,7 +491,10 @@ get_header();
                         <span class="choose-new-tag">Маркетплейс</span>
                         <span class="choose-new-tag">Мобильное приложение</span>
                     </div>
-                    <a href="#cases" class="choose-new-cta-link">СМОТРЕТЬ КЕЙСЫ</a>
+                    <a href="#cases" class="choose-new-cta-link">
+                        СМОТРЕТЬ КЕЙСЫ
+                        <span class="choose-new-cta-link-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg></span>
+                    </a>
                 </div>
                 <div class="choose-new-side">
                     <h3 class="choose-new-section-label"><span class="choose-new-section-icon">+</span> УСИЛИТ РЕЗУЛЬТАТ</h3>
