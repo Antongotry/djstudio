@@ -443,6 +443,78 @@ get_header();
             </div>
         </div>
     </section>
+
+    <section class="choose-section-new" id="what-you-need" aria-label="Что вам нужно?">
+        <div class="choose-new-bg" aria-hidden="true"></div>
+        <div class="choose-new-inner">
+            <div class="choose-new-header">
+                <h2 class="choose-new-title">Что вам нужно?</h2>
+                <div class="choose-new-header-row">
+                    <div class="choose-new-label">
+                        <span class="choose-new-number">005</span>
+                        <span class="choose-new-brand">Upgrade lab</span>
+                    </div>
+                    <p class="choose-new-subtitle">Для вашей задачи мы рекомендуем:</p>
+                    <p class="choose-new-placeholder">Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+                </div>
+            </div>
+            <div class="choose-new-tabs">
+                <button type="button" class="choose-new-tab" aria-pressed="false">Масштабироваться</button>
+                <button type="button" class="choose-new-tab choose-new-tab--active" aria-pressed="true">Новый продукт</button>
+                <button type="button" class="choose-new-tab" aria-pressed="false">Навести порядок</button>
+                <button type="button" class="choose-new-tab" aria-pressed="false">Обновить бренд</button>
+            </div>
+            <div class="choose-new-content">
+                <div class="choose-new-main">
+                    <h3 class="choose-new-section-label"><span class="choose-new-section-icon">★</span> ОСНОВНОЕ</h3>
+                    <div class="choose-new-block">
+                        <h4 class="choose-new-block-title">ІТ-продукты</h4>
+                        <p class="choose-new-block-desc">От MVP до enterprise. Веб и мобильные приложения, платформы, маркетплейсы.</p>
+                        <p class="choose-new-block-bullet">— Стабильный, масштабируемый продукт</p>
+                    </div>
+                    <h3 class="choose-new-section-label choose-new-section-label--mt">ТИПИЧНЫЕ ПРОЕКТЫ:</h3>
+                    <div class="choose-new-tags">
+                        <span class="choose-new-tag">SaaS</span>
+                        <span class="choose-new-tag">Клиентский портал</span>
+                        <span class="choose-new-tag">Маркетплейс</span>
+                        <span class="choose-new-tag">Мобильное приложение</span>
+                    </div>
+                    <a href="#cases" class="choose-new-cta-link">СМОТРЕТЬ КЕЙСЫ</a>
+                </div>
+                <div class="choose-new-side">
+                    <h3 class="choose-new-section-label"><span class="choose-new-section-icon">+</span> УСИЛИТ РЕЗУЛЬТАТ</h3>
+                    <div class="choose-new-block choose-new-block--compact">
+                        <h4 class="choose-new-block-title">Оцифровка процессов</h4>
+                        <p class="choose-new-block-desc">Метрики и дашборды</p>
+                    </div>
+                    <div class="choose-new-block choose-new-block--compact">
+                        <h4 class="choose-new-block-title">Автоматизация</h4>
+                        <p class="choose-new-block-desc">AI-интеграции</p>
+                    </div>
+                    <h3 class="choose-new-section-label choose-new-section-label--mt"><span class="choose-new-section-icon">∞</span> ПОСЛЕ ЗАПУСКА</h3>
+                    <div class="choose-new-block choose-new-block--compact">
+                        <h4 class="choose-new-block-title">Digital-сопровождение</h4>
+                        <p class="choose-new-block-desc">Поддержка, развитие, оптимизация. 70% клиентов выбирают постоянное партнёрство.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="choose-new-footer">
+                <div class="choose-new-nav" aria-hidden="true">
+                    <span class="choose-new-bar choose-new-bar--active"></span>
+                    <span class="choose-new-bar"></span>
+                    <span class="choose-new-bar"></span>
+                    <span class="choose-new-bar"></span>
+                    <span class="choose-new-bar"></span>
+                </div>
+                <a href="#contact" class="choose-new-cta">
+                    ОБСУДИТЬ СИТУАЦИЮ
+                    <span class="choose-new-cta-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M7 7h10v10"/></svg>
+                    </span>
+                </a>
+            </div>
+        </div>
+    </section>
 </main>
 
 <?php
