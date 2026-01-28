@@ -2359,6 +2359,441 @@ section {
     }
 }
 
+/* Ecosystem Section — Экосистема вокруг вашего бизнеса */
+.ecosystem-section {
+    position: relative;
+    z-index: 1;
+    min-height: auto;
+    padding: 0;
+    overflow-x: hidden;
+    width: 100%;
+    display: block;
+    margin: 0;
+    clear: both;
+}
+
+.ecosystem-bg {
+    position: absolute;
+    inset: 0;
+    background: #1A1A1A;
+    z-index: 0;
+}
+
+.ecosystem-inner {
+    position: relative;
+    z-index: 1;
+    max-width: var(--site-width);
+    width: 100%;
+    margin: 0 auto;
+    padding: 80px 40px 100px;
+    box-sizing: border-box;
+}
+
+.ecosystem-header {
+    margin-bottom: 48px;
+}
+
+.ecosystem-title {
+    font-family: Raleway, sans-serif;
+    font-size: clamp(28px, 3.5vw, 48px);
+    font-weight: 600;
+    color: #ffffff;
+    margin: 0 0 28px 0;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+}
+
+.ecosystem-header-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 32px;
+    flex-wrap: wrap;
+}
+
+.ecosystem-label {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    flex-shrink: 0;
+}
+
+.ecosystem-vline {
+    width: 1px;
+    height: 20px;
+    background: #555;
+    flex-shrink: 0;
+}
+
+.ecosystem-number {
+    font-size: 14px;
+    font-weight: 400;
+    color: #888;
+}
+
+.ecosystem-brand {
+    font-size: 14px;
+    font-weight: 600;
+    color: #F0F0F0;
+}
+
+.ecosystem-link {
+    font-family: Raleway, sans-serif;
+    font-size: clamp(14px, 1em, 16px);
+    font-weight: 400;
+    color: #4A90E2;
+    text-decoration: underline;
+    flex: 1;
+    transition: color 0.2s ease;
+}
+
+.ecosystem-link:hover {
+    color: #5BA0F2;
+}
+
+.ecosystem-placeholder {
+    font-size: 12px;
+    color: #888;
+    font-weight: 300;
+    text-align: right;
+    max-width: 280px;
+    margin-left: auto;
+}
+
+.ecosystem-diagram {
+    position: relative;
+    width: 100%;
+    min-height: 600px;
+    margin: 60px 0 80px 0;
+    padding: 40px 0;
+}
+
+.ecosystem-nodes {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    min-height: 600px;
+}
+
+.ecosystem-node {
+    position: absolute;
+    background: #2A2A2A;
+    border: 1px solid #E0B86F;
+    border-radius: 12px;
+    padding: 20px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    min-width: 140px;
+    z-index: 2;
+}
+
+.ecosystem-node--top-left {
+    top: 5%;
+    left: 15%;
+}
+
+.ecosystem-node--top-center {
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.ecosystem-node--top-right {
+    top: 5%;
+    right: 15%;
+}
+
+.ecosystem-node--center {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 220px;
+    padding: 32px 36px;
+}
+
+.ecosystem-node--bottom-left {
+    bottom: 15%;
+    left: 15%;
+}
+
+.ecosystem-node--bottom-right {
+    bottom: 15%;
+    right: 15%;
+}
+
+.ecosystem-node-icon {
+    width: 32px;
+    height: 32px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #E0B86F;
+    flex-shrink: 0;
+}
+
+.ecosystem-node-icon svg {
+    width: 24px;
+    height: 24px;
+}
+
+.ecosystem-node-text {
+    font-family: Raleway, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #F0F0F0;
+    text-align: center;
+}
+
+.ecosystem-center-title {
+    font-family: Raleway, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+    margin: 0;
+    text-align: center;
+}
+
+.ecosystem-center-subtitle {
+    font-family: Raleway, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #888;
+    margin: 4px 0 0 0;
+    text-align: center;
+}
+
+.ecosystem-connections {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    min-height: 600px;
+    pointer-events: none;
+    z-index: 1;
+    overflow: visible;
+}
+
+.ecosystem-lines {
+    width: 100%;
+    height: 100%;
+    min-height: 600px;
+}
+
+.ecosystem-automation {
+    position: relative;
+    background: #2A2A2A;
+    border: 1px solid #E0B86F;
+    border-radius: 12px;
+    padding: 32px 30px;
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+    margin: 0 auto 48px auto;
+    max-width: 800px;
+}
+
+.ecosystem-automation-icon {
+    width: 48px;
+    height: 48px;
+    flex-shrink: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #E0B86F;
+}
+
+.ecosystem-automation-icon svg {
+    width: 32px;
+    height: 32px;
+}
+
+.ecosystem-automation-content {
+    flex: 1;
+}
+
+.ecosystem-automation-title {
+    font-family: Raleway, sans-serif;
+    font-size: clamp(18px, 1.3em, 22px);
+    font-weight: 700;
+    color: #ffffff;
+    margin: 0 0 12px 0;
+}
+
+.ecosystem-automation-desc {
+    font-family: Raleway, sans-serif;
+    font-size: clamp(14px, 1em, 16px);
+    font-weight: 400;
+    color: #b0b0b0;
+    line-height: 1.5;
+    margin: 0 0 12px 0;
+}
+
+.ecosystem-automation-bullet {
+    font-family: Raleway, sans-serif;
+    font-size: 14px;
+    color: #888;
+    margin: 0 0 24px 0;
+}
+
+.ecosystem-automation-related {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.ecosystem-automation-label {
+    font-family: Raleway, sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    color: #888;
+    letter-spacing: 0.05em;
+}
+
+.ecosystem-automation-tags {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.ecosystem-automation-tag {
+    font-family: Raleway, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #b0b0b0;
+    padding: 8px 14px;
+    background: #333;
+    border: 1px solid #E0B86F;
+    border-radius: 8px;
+}
+
+.ecosystem-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
+
+.ecosystem-nav {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.ecosystem-bar {
+    width: 6px;
+    height: 20px;
+    border-radius: 2px;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.ecosystem-bar--active {
+    background: #E76F51;
+}
+
+.ecosystem-cta {
+    font-family: Raleway, sans-serif;
+    padding: 14px 20px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #F0F0F0;
+    background: #2A2A2A;
+    border: 1px solid #555;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    white-space: nowrap;
+}
+
+.ecosystem-cta:hover {
+    color: #fff;
+    border-color: #666;
+}
+
+.ecosystem-cta-icon {
+    width: 44px;
+    height: 44px;
+    border-radius: 8px;
+    background: #E76F51;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.ecosystem-cta-icon svg {
+    width: 18px;
+    height: 18px;
+    color: #fff;
+}
+
+@media (max-width: 1024px) {
+    .ecosystem-diagram {
+        min-height: 400px;
+    }
+    .ecosystem-node {
+        min-width: 120px;
+        padding: 16px 20px;
+    }
+    .ecosystem-node--center {
+        min-width: 180px;
+        padding: 24px 28px;
+    }
+}
+
+@media (max-width: 768px) {
+    .ecosystem-inner {
+        padding: 60px 20px 80px;
+    }
+    .ecosystem-header-row {
+        flex-direction: column;
+        gap: 16px;
+    }
+    .ecosystem-link {
+        margin: 0;
+    }
+    .ecosystem-placeholder {
+        margin-left: 0;
+        text-align: left;
+    }
+    .ecosystem-diagram {
+        min-height: 600px;
+        margin: 40px 0 60px 0;
+    }
+    .ecosystem-node {
+        position: relative;
+        top: auto !important;
+        left: auto !important;
+        right: auto !important;
+        bottom: auto !important;
+        transform: none !important;
+        margin: 0 auto 20px auto;
+    }
+    .ecosystem-node--center {
+        margin: 40px auto;
+    }
+    .ecosystem-connections {
+        display: none;
+    }
+    .ecosystem-automation {
+        flex-direction: column;
+        padding: 24px 22px;
+    }
+    .ecosystem-footer {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
 /* Choose Section */
 .choose-section {
     min-height: 100vh;

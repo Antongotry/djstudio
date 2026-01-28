@@ -531,6 +531,90 @@ get_header();
             </div>
         </div>
     </section>
+
+    <section class="ecosystem-section" id="ecosystem" aria-label="Экосистема вокруг вашего бизнеса">
+        <div class="ecosystem-bg" aria-hidden="true"></div>
+        <div class="ecosystem-inner">
+            <div class="ecosystem-header">
+                <h2 class="ecosystem-title">Экосистема вокруг вашего бизнеса</h2>
+                <div class="ecosystem-header-row">
+                    <div class="ecosystem-label">
+                        <span class="ecosystem-number">006</span>
+                        <span class="ecosystem-vline" aria-hidden="true"></span>
+                        <span class="ecosystem-brand">Upgrade lab</span>
+                    </div>
+                    <a href="#digital-needs" class="ecosystem-link">Комплексное покрытие всех digital-потребностей</a>
+                    <p class="ecosystem-placeholder">Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+                </div>
+            </div>
+            <div class="ecosystem-diagram">
+                <div class="ecosystem-nodes">
+                    <div class="ecosystem-node ecosystem-node--top-left">
+                        <span class="ecosystem-node-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M23 4v6h-6M1 20v-6h6M3.51 9a9 9 0 0114.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0020.49 15"/></svg></span>
+                        <span class="ecosystem-node-text">Сопровождение</span>
+                    </div>
+                    <div class="ecosystem-node ecosystem-node--top-center">
+                        <span class="ecosystem-node-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 3c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm0 14.2c-2.5 0-4.71-1.28-6-3.22.03-1.99 4-3.08 6-3.08 1.99 0 5.97 1.09 6 3.08-1.29 1.94-3.5 3.22-6 3.22z"/></svg></span>
+                        <span class="ecosystem-node-text">Бренд</span>
+                    </div>
+                    <div class="ecosystem-node ecosystem-node--top-right">
+                        <span class="ecosystem-node-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/></svg></span>
+                        <span class="ecosystem-node-text">Сайты</span>
+                    </div>
+                    <div class="ecosystem-node ecosystem-node--center">
+                        <h3 class="ecosystem-center-title">Ваш бизнес</h3>
+                        <p class="ecosystem-center-subtitle">Рост. Масштаб. Капитализация.</p>
+                    </div>
+                    <div class="ecosystem-node ecosystem-node--bottom-left">
+                        <span class="ecosystem-node-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 21h18M3 10h18M5 6l7-3 7 3M4 10v11M20 10v11M8 14v4M12 14v4M16 14v4"/></svg></span>
+                        <span class="ecosystem-node-text">Оцифровка</span>
+                    </div>
+                    <div class="ecosystem-node ecosystem-node--bottom-right">
+                        <span class="ecosystem-node-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><path d="M14 2v6h6M16 13H8M16 17H8M10 9H8"/></svg></span>
+                        <span class="ecosystem-node-text">Продукты</span>
+                    </div>
+                </div>
+                <div class="ecosystem-connections" aria-hidden="true">
+                    <svg class="ecosystem-lines" viewBox="0 0 1000 600" preserveAspectRatio="none">
+                        <line x1="500" y1="300" x2="200" y2="100" stroke="#E0B86F" stroke-width="1.5" opacity="0.6"/>
+                        <line x1="500" y1="300" x2="500" y2="100" stroke="#E0B86F" stroke-width="1.5" opacity="0.6"/>
+                        <line x1="500" y1="300" x2="800" y2="100" stroke="#E0B86F" stroke-width="1.5" opacity="0.6"/>
+                        <line x1="500" y1="300" x2="200" y2="500" stroke="#E0B86F" stroke-width="1.5" opacity="0.6"/>
+                        <line x1="500" y1="300" x2="800" y2="500" stroke="#E0B86F" stroke-width="1.5" opacity="0.6"/>
+                    </svg>
+                </div>
+            </div>
+            <div class="ecosystem-automation">
+                <div class="ecosystem-automation-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg></div>
+                <div class="ecosystem-automation-content">
+                    <h3 class="ecosystem-automation-title">Автоматизация и AI</h3>
+                    <p class="ecosystem-automation-desc">Боты, интеграции RPA, AI-инструменты для освобождения управленческого ресурса.</p>
+                    <p class="ecosystem-automation-bullet">— Стабильный, масштабируемый продукт</p>
+                    <div class="ecosystem-automation-related">
+                        <span class="ecosystem-automation-label">СВЯЗАНО С:</span>
+                        <div class="ecosystem-automation-tags">
+                            <span class="ecosystem-automation-tag">Оцифровка</span>
+                            <span class="ecosystem-automation-tag">ІТ-продукты</span>
+                            <span class="ecosystem-automation-tag">Сопровождение</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="ecosystem-footer">
+                <div class="ecosystem-nav" aria-hidden="true">
+                    <span class="ecosystem-bar ecosystem-bar--active"></span>
+                    <span class="ecosystem-bar"></span>
+                    <span class="ecosystem-bar"></span>
+                </div>
+                <a href="#contact" class="ecosystem-cta">
+                    ОБСУДИТЬ СИТУАЦИЮ
+                    <span class="ecosystem-cta-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M7 7h10v10"/></svg>
+                    </span>
+                </a>
+            </div>
+        </div>
+    </section>
 </main>
 
 <?php
