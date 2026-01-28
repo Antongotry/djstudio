@@ -68,17 +68,19 @@ get_header();
         <div class="check-grid-bg" aria-hidden="true"></div>
         <div class="check-inner">
             <div class="check-header">
-                <div class="check-header-corners">
-                    <div class="check-label">
-                        <span class="check-number">001</span>
-                        <span class="check-divider">|</span>
-                        <span class="check-brand">Upgrade <span class="check-brand-light">lab</span></span>
-                    </div>
-                    <p class="check-placeholder">Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
-                </div>
                 <div class="check-header-center">
                     <h2 class="check-title">Проверьте <span class="check-title-accent">себя</span></h2>
-                    <p class="check-question">Сколько пунктов про ваш бизнес?</p>
+                </div>
+                <div class="check-header-corners">
+                    <div class="check-header-left">
+                        <div class="check-label">
+                            <span class="check-number">001</span>
+                            <span class="check-brand">Upgrade <span class="check-brand-light">lab</span></span>
+                        </div>
+                        <span class="check-vline" aria-hidden="true"></span>
+                        <p class="check-question">Сколько пунктов про ваш бизнес?</p>
+                    </div>
+                    <p class="check-placeholder">Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
                 </div>
             </div>
             <div class="check-grid" id="checkGrid">
