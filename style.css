@@ -1319,64 +1319,86 @@ section {
 
 .clients-card {
     position: relative;
-    background: #282828;
-    border: 1px solid rgba(212, 190, 132, 0.25);
-    border-radius: 10px;
-    padding: 28px 26px;
+    background: #2C2C2E;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 20px;
+    padding: 32px 30px;
     display: flex;
     align-items: center;
-    gap: 28px;
-    min-height: 120px;
+    gap: 32px;
+    min-height: 140px;
     overflow: hidden;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.06);
 }
 
-/* Декоративные линии в правом верхнем углу карточки */
+/* Декоративные диагональные линии: правый верхний угол */
 .clients-card::before {
     content: '';
     position: absolute;
     top: 0;
     right: 0;
-    width: 50%;
-    height: 50%;
+    width: 45%;
+    height: 45%;
     pointer-events: none;
     background-image:
-        linear-gradient(to right, rgba(255,255,255,0.05) 1px, transparent 1px),
-        linear-gradient(to right, rgba(255,255,255,0.05) 1px, transparent 1px),
-        linear-gradient(135deg, rgba(255,255,255,0.04) 1px, transparent 1px),
-        linear-gradient(-135deg, rgba(255,255,255,0.04) 1px, transparent 1px);
-    background-size: 100% 1px, 100% 1px, 8px 8px, 8px 8px;
-    background-position: 12px 14px, 12px 22px, top right, top right;
+        linear-gradient(135deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+        linear-gradient(-135deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+    background-size: 10px 10px, 10px 10px;
+    background-position: top right, top right;
+    background-repeat: no-repeat;
+}
+
+/* Декоративные диагональные линии: левый нижний угол */
+.clients-card::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 45%;
+    height: 45%;
+    pointer-events: none;
+    background-image:
+        linear-gradient(45deg, rgba(255, 255, 255, 0.04) 1px, transparent 1px),
+        linear-gradient(-45deg, rgba(255, 255, 255, 0.04) 1px, transparent 1px);
+    background-size: 10px 10px, 10px 10px;
+    background-position: bottom left, bottom left;
     background-repeat: no-repeat;
 }
 
 .clients-icon {
-    width: 72px;
-    height: 72px;
+    width: 80px;
+    height: 80px;
     flex-shrink: 0;
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    color: #D4BE84;
-    /* Нимб из концентрических кругов */
+    color: #C1B38C;
+    /* Три концентрических круга: внутренний ярче, внешние слабее */
     box-shadow:
-        0 0 0 1px rgba(212, 190, 132, 0.35),
-        0 0 0 4px rgba(212, 190, 132, 0.15),
-        0 0 0 8px rgba(212, 190, 132, 0.08);
+        0 0 0 1px rgba(193, 179, 140, 0.5),
+        0 0 0 5px rgba(193, 179, 140, 0.18),
+        0 0 0 10px rgba(193, 179, 140, 0.06);
     border-radius: 50%;
 }
 
 .clients-icon svg {
-    width: 40px;
-    height: 40px;
+    width: 44px;
+    height: 44px;
 }
 
 .clients-card-text {
     font-family: Raleway, sans-serif;
-    font-size: clamp(16px, 1.15em, 18px);
+    font-size: clamp(17px, 1.2em, 19px);
     font-weight: 400;
-    color: #e8e8e8;
-    line-height: 1.5;
+    color: #ffffff;
+    line-height: 1.55;
     margin: 0;
+}
+
+.clients-card-text::first-line {
+    font-size: 1.08em;
+    font-weight: 600;
+    color: #ffffff;
 }
 
 @media (max-width: 1024px) {

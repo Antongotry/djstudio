@@ -266,8 +266,8 @@ get_header();
             </div>
             <div class="clients-grid">
                 <div class="clients-card">
-                    <span class="clients-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="9"/><path d="M12 6v6l4 2"/></svg></span>
-                    <p class="clients-card-text">На стратегию времени нет — только операционка</p>
+                    <span class="clients-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="9"/><path d="M12 12L8.5 10.2M12 12L17.2 9"/></svg></span>
+                    <p class="clients-card-text">На стратегию времени нет<br>— только операционка</p>
                 </div>
                 <div class="clients-card">
                     <span class="clients-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="8" r="3"/><path d="M5 21v-2a4 4 0 014-4h6a4 4 0 014 4v2"/></svg></span>
