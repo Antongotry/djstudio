@@ -1501,11 +1501,11 @@ section {
     background: #2C2C2E;
     border: 1px solid rgba(255, 255, 255, 0.12);
     border-radius: 20px;
-    padding: 28px 26px;
+    padding: 32px 30px;
     display: flex;
     align-items: center;
-    gap: 24px;
-    min-height: 100px;
+    gap: 28px;
+    min-height: 120px;
     overflow: visible;
     box-shadow:
         0px 0px 24px 0px #C0C0C01A,
@@ -1532,28 +1532,30 @@ section {
 }
 
 .reject-icon {
-    width: 48px;
-    height: 48px;
+    width: 56px;
+    height: 56px;
     flex-shrink: 0;
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(135deg, #992E30 0%, #c94a4c 100%);
+    background: #992E30;
+    border: 1px solid rgba(153, 46, 48, 0.4);
     border-radius: 50%;
     color: #ffffff;
 }
 
 .reject-icon svg {
-    width: 24px;
-    height: 24px;
+    width: 28px;
+    height: 28px;
+    stroke-width: 2.5;
 }
 
 .reject-card-text {
     font-family: Raleway, sans-serif;
-    font-size: clamp(15px, 1.1em, 17px);
+    font-size: clamp(16px, 1.1em, 18px);
     font-weight: 400;
-    color: #ffffff;
-    line-height: 1.45;
+    color: #e8e8e8;
+    line-height: 1.5;
     margin: 0;
 }
 
@@ -1571,6 +1573,11 @@ section {
     line-height: 1.55;
     margin: 0;
     max-width: 640px;
+}
+
+.reject-text strong {
+    font-weight: 700;
+    color: #ffffff;
 }
 
 .reject-footer-right {
@@ -1594,7 +1601,7 @@ section {
 }
 
 .reject-bar--active {
-    background: rgba(255, 255, 255, 0.6);
+    background: #D4BE84;
 }
 
 .reject-cta {

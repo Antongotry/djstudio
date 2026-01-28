@@ -314,26 +314,27 @@ get_header();
             </div>
             <div class="reject-grid">
                 <div class="reject-card">
-                    <span class="reject-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg></span>
+                    <span class="reject-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 6L6 18M6 6l12 12"/></svg></span>
                     <p class="reject-card-text">Стартапы на стадии идеи без бюджета</p>
                 </div>
                 <div class="reject-card">
-                    <span class="reject-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg></span>
+                    <span class="reject-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 6L6 18M6 6l12 12"/></svg></span>
                     <p class="reject-card-text">Компании без готовности к изменениям</p>
                 </div>
                 <div class="reject-card">
-                    <span class="reject-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg></span>
-                    <p class="reject-card-text">Проекты «сделайте как у конкурентов» без своей стратегии</p>
+                    <span class="reject-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 6L6 18M6 6l12 12"/></svg></span>
+                    <p class="reject-card-text">Те, кому нужен «просто сайт подешевле»</p>
                 </div>
                 <div class="reject-card">
-                    <span class="reject-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg></span>
-                    <p class="reject-card-text">Запросы на разовые задачи без долгосрочного партнёрства</p>
+                    <span class="reject-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 6L6 18M6 6l12 12"/></svg></span>
+                    <p class="reject-card-text">Бизнес, ищущий исполнителей, а не партнёров</p>
                 </div>
             </div>
             <div class="reject-footer">
-                <p class="reject-text">Отказываем, чтобы сохранить фокус. Каждый неподходящий проект отнимает ресурс у тех, кому действительно можем помочь.</p>
+                <p class="reject-text">Отказываем, чтобы сохранить фокус. Каждый неподходящий проект отнимает ресурс у тех, кому <strong>действительно можем помочь.</strong></p>
                 <div class="reject-footer-right">
                     <div class="reject-nav" aria-hidden="true">
+                        <span class="reject-bar reject-bar--active"></span>
                         <span class="reject-bar reject-bar--active"></span>
                         <span class="reject-bar"></span>
                         <span class="reject-bar"></span>
