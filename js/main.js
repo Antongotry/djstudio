@@ -144,68 +144,48 @@
         });
     }
 
-    // Initialize check section when DOM is ready
+    // Initialize sections when DOM is ready
     if (document.readyState === 'loading') {
         document.addEventListener('DOMContentLoaded', function() {
             initCheckSection();
-            initChooseSection();
             initFaqSection();
-            // Show default content (digitization is active by default)
-            showContentTab('digitization');
+            initInfraTabs();
         });
     } else {
         initCheckSection();
-        initChooseSection();
         initFaqSection();
-        // Show default content (digitization is active by default)
-        showContentTab('digitization');
+        initInfraTabs();
     }
 
-    // Choose section functionality
-    function initChooseSection() {
-        const chooseButtons = document.querySelectorAll('.choose-button');
-        if (!chooseButtons.length) return;
+    // Infrastructure tabs
+    function initInfraTabs() {
+        const tabs = document.querySelectorAll('.infra-tab');
+        const panels = document.querySelectorAll('.infra-panel');
+        if (!tabs.length || !panels.length) return;
 
-        chooseButtons.forEach(button => {
-            button.addEventListener('click', function() {
-                // Remove active class from all buttons
-                chooseButtons.forEach(btn => {
-                    btn.classList.remove('choose-button-active');
-                });
-                
-                // Add active class to clicked button
-                this.classList.add('choose-button-active');
-                
-                // Get the tab data attribute
-                const tab = this.getAttribute('data-tab');
-                
-                // Show corresponding content tab
-                showContentTab(tab);
+        function activateTab(tab) {
+            const name = tab.getAttribute('data-tab');
+            tabs.forEach(btn => {
+                const isActive = btn === tab;
+                btn.classList.toggle('is-active', isActive);
+                btn.setAttribute('aria-selected', isActive ? 'true' : 'false');
             });
-        });
-    }
 
-    // Show content tab based on selection
-    function showContentTab(tabName) {
-        const contentTabs = document.querySelectorAll('.content-tab');
-        if (!contentTabs.length) return;
-
-        contentTabs.forEach(tab => {
-            tab.classList.remove('active');
-            if (tab.getAttribute('data-tab') === tabName) {
-                tab.classList.add('active');
-                
-                // Smooth scroll to content section
-                const contentSection = document.getElementById('content-section');
-                if (contentSection) {
-                    setTimeout(() => {
-                        contentSection.scrollIntoView({
-                            behavior: 'smooth',
-                            block: 'start'
-                        });
-                    }, 100);
+            panels.forEach(panel => {
+                const isActive = panel.getAttribute('data-tab') === name;
+                panel.classList.toggle('is-active', isActive);
+                if (isActive) {
+                    panel.removeAttribute('hidden');
+                } else {
+                    panel.setAttribute('hidden', '');
                 }
-            }
+            });
+        }
+
+        tabs.forEach(tab => {
+            tab.addEventListener('click', function() {
+                activateTab(this);
+            });
         });
     }
 
